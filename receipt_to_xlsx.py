@@ -65,7 +65,20 @@ RECEIPT_SCHEMA = {
     "additionalProperties": False,
 }
 
-PROMPT_TEMPLATE = """このレシート画像から、購入日・店名・購入品名・合計金額を抽出してください。
+# スキャン1枚に複数のレシートが貼られていることがあるので、配列で受け取る
+PAGE_SCHEMA = {
+    "type": "object",
+    "properties": {"receipts": {"type": "array", "items": RECEIPT_SCHEMA}},
+    "required": ["receipts"],
+    "additionalProperties": False,
+}
+
+PROMPT_TEMPLATE = """この画像に写っているレシート・領収書をすべて読み取り、1枚ごとに
+購入日・店名・購入品名・合計金額を抽出してください。
+
+- 1枚の画像に複数のレシートが貼られていることがある。写っているものはすべて receipts に入れる。
+- 画像が上下逆さま・横向きの場合もあるので、向きを補正して読む。
+- 同じ取引のレシートと領収書が両方ある場合は1件にまとめる(例: ダイソーの領収証と付属のレシート)。
 
 - date: 西暦 YYYY-MM-DD 形式に変換する（和暦や「25/10/01」のような表記も変換）。
 - store_name: 店名。チェーン店は支店名まで（例: 「セブン-イレブン 上野桜木2丁目店」）。
@@ -127,7 +140,7 @@ def load_image(path: Path) -> tuple[str, str]:
     return media_type, base64.standard_b64encode(raw).decode("utf-8")
 
 
-def extract_receipt(client: anthropic.Anthropic, path: Path, prompt: str) -> dict:
+def extract_receipts(client: anthropic.Anthropic, path: Path, prompt: str) -> list[dict]:
     media_type, data = load_image(path)
     response = client.beta.messages.create(
         model=MODEL,
@@ -136,7 +149,7 @@ def extract_receipt(client: anthropic.Anthropic, path: Path, prompt: str) -> dic
         fallbacks="default",
         output_config={
             "effort": "medium",
-            "format": {"type": "json_schema", "schema": RECEIPT_SCHEMA},
+            "format": {"type": "json_schema", "schema": PAGE_SCHEMA},
         },
         messages=[{
             "role": "user",
@@ -151,7 +164,7 @@ def extract_receipt(client: anthropic.Anthropic, path: Path, prompt: str) -> dic
     if response.stop_reason == "max_tokens":
         raise RuntimeError("出力が途中で切れました")
     text = next(b.text for b in response.content if b.type == "text")
-    return json.loads(text)
+    return json.loads(text)["receipts"]
 
 
 def collect_images(inputs: list[str]) -> list[Path]:
@@ -250,14 +263,16 @@ def main() -> int:
     for path in images:
         print(f"読み取り中: {path}")
         try:
-            results.append((path, extract_receipt(client, path, prompt)))
+            receipts = extract_receipts(client, path, prompt)
+            print(f"  {len(receipts)} 件")
+            results.extend((path, r) for r in receipts)
         except (anthropic.APIConnectionError, anthropic.APIStatusError, RuntimeError) as e:
             print(f"  失敗: {e}", file=sys.stderr)
 
     if not results:
         return 1
     write_workbook(results, Path(args.output))
-    print(f"{len(results)}/{len(images)} 件を {args.output} に保存しました")
+    print(f"{len(images)} 枚の画像から {len(results)} 件のレシートを {args.output} に保存しました")
     return 0
 
 
