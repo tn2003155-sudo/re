@@ -7,6 +7,7 @@
     python receipt_to_xlsx.py receipts/ -o receipts.xlsx
     python receipt_to_xlsx.py img1.jpg img2.png -o out.xlsx
     python receipt_to_xlsx.py receipts/ --names names.csv   # 区分リストを差し替える
+    python receipt_to_xlsx.py --from-json data/receipts.json  # 読み取り済みデータからExcelだけ作る
 """
 
 from __future__ import annotations
@@ -242,13 +243,27 @@ def write_workbook(results: list[tuple[Path, dict]], out: Path) -> None:
     wb.save(out)
 
 
+def load_json(path: Path) -> list[tuple[Path, dict]]:
+    """読み取り済みデータ (レシートの配列、各要素に file を含む) を読み込む."""
+    records = json.loads(path.read_text(encoding="utf-8"))
+    return [(Path(r.get("file", "")), r) for r in records]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="レシート画像をExcelにまとめます")
-    parser.add_argument("inputs", nargs="+", help="画像ファイルまたはフォルダ")
+    parser.add_argument("inputs", nargs="*", help="画像ファイルまたはフォルダ")
     parser.add_argument("-o", "--output", default="receipts.xlsx", help="出力ファイル名")
     parser.add_argument("--names", type=Path,
                         help="購入品名の区分リスト (CSV/TXT、1列目を使用)。省略時は既定の区分")
+    parser.add_argument("--from-json", type=Path,
+                        help="API を使わず、読み取り済みデータ (JSON) から Excel を作る")
     args = parser.parse_args()
+
+    if args.from_json:
+        results = load_json(args.from_json)
+        write_workbook(results, Path(args.output))
+        print(f"{len(results)} 件のレシートを {args.output} に保存しました")
+        return 0
 
     categories = load_categories(args.names) if args.names else DEFAULT_CATEGORIES
     prompt = build_prompt(categories)

@@ -1,0 +1,14 @@
+[
+  {"file": "2026-01_p1.jpg", "date": "2026-01-01", "store_name": "国際自動車 (km)", "purchase_name": "タクシー代", "total": 1200,
+   "items": [{"name": "基本運賃", "amount": 1200}]},
+  {"file": "2026-01_p1.jpg", "date": "2026-01-04", "store_name": "国際自動車 (km)", "purchase_name": "タクシー代", "total": 1200,
+   "items": [{"name": "基本運賃", "amount": 700}, {"name": "迎車料金", "amount": 500}]},
+  {"file": "2026-01_p1.jpg", "date": "2026-01-05", "store_name": "つばめ交通", "purchase_name": "タクシー代", "total": 1900,
+   "items": [{"name": "運賃", "amount": 1300}, {"name": "迎車料金", "amount": 400}, {"name": "通行料他", "amount": 200}]},
+  {"file": "2026-01_p1.jpg", "date": "2026-01-06", "store_name": "省東自動車", "purchase_name": "タクシー代", "total": 1900,
+   "items": [{"name": "運賃", "amount": 1900}]},
+  {"file": "2026-01_p1.jpg", "date": "2026-01-07", "store_name": "東京ヤクルト販売", "purchase_name": "飲料（Y1000）", "total": 3931,
+   "items": [{"name": "Y1000 ×28", "amount": 3931}]},
+  {"file": "2026-01_p1.jpg", "date": "2026-01-07", "store_name": "ダイソー 多慶屋御徒町店", "purchase_name": "雑貨", "total": 110,
+   "items": [{"name": "ステンレス製チタンコート", "amount": 100}]}
+]

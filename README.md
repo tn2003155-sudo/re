@@ -19,6 +19,14 @@ python receipt_to_xlsx.py receipts/ -o receipts.xlsx
 python receipt_to_xlsx.py IMG_0001.jpg IMG_0002.png
 ```
 
+## API を使わずに作る
+
+読み取り済みのデータ (`data/receipts.json`) から Excel だけを作れます。
+
+```bash
+python receipt_to_xlsx.py --from-json data/receipts.json -o receipts.xlsx
+```
+
 ## 購入品名のまとめ方
 
 参考スプレッドシート「レシートデータのエクセル・CSV化」と同じく、**1レシート = 1行** で
