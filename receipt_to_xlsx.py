@@ -3,12 +3,15 @@
 使い方:
     python receipt_to_xlsx.py receipts/ -o receipts.xlsx
     python receipt_to_xlsx.py img1.jpg img2.png -o out.xlsx
+    python receipt_to_xlsx.py receipts/ --names names.csv   # 代表品名リストに寄せる
 """
 
 from __future__ import annotations
 
 import argparse
 import base64
+import copy
+import csv
 import io
 import json
 import sys
@@ -38,12 +41,13 @@ RECEIPT_SCHEMA = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "name": {"type": "string", "description": "品目名"},
+                    "name": {"type": "string", "description": "シンプルな代表品名"},
+                    "original_name": {"type": "string", "description": "レシート上の表記そのまま"},
                     "quantity": {"type": "number", "description": "数量 (不明なら1)"},
                     "unit_price": {"type": "number", "description": "単価 (円)"},
                     "amount": {"type": "number", "description": "金額 (円、値引き後)"},
                 },
-                "required": ["name", "quantity", "unit_price", "amount"],
+                "required": ["name", "original_name", "quantity", "unit_price", "amount"],
                 "additionalProperties": False,
             },
         },
@@ -57,7 +61,36 @@ PROMPT = """このレシート画像から、購入日・店名・購入品目�
 - 日付は西暦 YYYY-MM-DD 形式に変換する(和暦や「26/10/01」のような表記も変換)。
 - 品目には商品のみを含め、小計・合計・税・お預り・お釣り・ポイントなどの行は含めない。
 - 値引き行は直前の商品の金額に反映する。
-- 品目名はレシートの表記どおりに書き起こす。"""
+- original_name にはレシートの表記どおりに書き起こす。
+- name には、ブランド名・容量・産地・略語などを省いたシンプルな代表品名を書く
+  (例: 「明治おいしい牛乳1000ml」→「牛乳」、「国産若鶏もも肉」→「鶏肉」)。"""
+
+OTHER = "その他"
+HEADER_WORDS = {"品名", "品目", "代表品名", "購入品名", "商品名"}
+
+
+def load_names(path: Path) -> list[str]:
+    """代表品名リストを読み込む (CSV/TXT の1列目、空行・重複は除く)."""
+    names: list[str] = []
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.reader(f):
+            name = row[0].strip() if row else ""
+            if name and name not in names and name not in HEADER_WORDS:
+                names.append(name)
+    return names
+
+
+def build_request(names: list[str] | None) -> tuple[dict, str]:
+    """品名リストがあれば name を列挙型に制限したスキーマとプロンプトを返す."""
+    if not names:
+        return RECEIPT_SCHEMA, PROMPT
+    schema = copy.deepcopy(RECEIPT_SCHEMA)
+    choices = names + ([OTHER] if OTHER not in names else [])
+    schema["properties"]["items"]["items"]["properties"]["name"]["enum"] = choices
+    prompt = PROMPT + f"""
+- name は次の代表品名リストから最も近いものを1つ選ぶ。どれにも当てはまらない場合は「{OTHER}」とする。
+代表品名リスト: {"、".join(names)}"""
+    return schema, prompt
 
 
 def load_image(path: Path) -> tuple[str, str]:
@@ -88,7 +121,7 @@ def load_image(path: Path) -> tuple[str, str]:
     return media_type, base64.standard_b64encode(raw).decode("utf-8")
 
 
-def extract_receipt(client: anthropic.Anthropic, path: Path) -> dict:
+def extract_receipt(client: anthropic.Anthropic, path: Path, schema: dict, prompt: str) -> dict:
     media_type, data = load_image(path)
     response = client.beta.messages.create(
         model=MODEL,
@@ -97,13 +130,13 @@ def extract_receipt(client: anthropic.Anthropic, path: Path) -> dict:
         fallbacks="default",
         output_config={
             "effort": "medium",
-            "format": {"type": "json_schema", "schema": RECEIPT_SCHEMA},
+            "format": {"type": "json_schema", "schema": schema},
         },
         messages=[{
             "role": "user",
             "content": [
                 {"type": "image", "source": {"type": "base64", "media_type": media_type, "data": data}},
-                {"type": "text", "text": PROMPT},
+                {"type": "text", "text": prompt},
             ],
         }],
     )
@@ -145,15 +178,15 @@ def write_workbook(results: list[tuple[Path, dict]], out: Path) -> None:
 
     ws = wb.active
     ws.title = "明細"
-    ws.append(["日付", "店名", "品目", "数量", "単価", "金額", "ファイル"])
+    ws.append(["日付", "店名", "品名", "数量", "単価", "金額", "レシート表記", "ファイル"])
     for path, r in results:
         for item in r["items"]:
             ws.append([r["date"], r["store_name"], item["name"], item["quantity"],
-                       item["unit_price"], item["amount"], path.name])
+                       item["unit_price"], item["amount"], item["original_name"], path.name])
     for row in ws.iter_rows(min_row=2, min_col=5, max_col=6):
         for cell in row:
             cell.number_format = "#,##0"
-    style_header(ws, [12, 24, 36, 8, 10, 10, 24])
+    style_header(ws, [12, 24, 16, 8, 10, 10, 36, 24])
 
     summary = wb.create_sheet("レシート一覧")
     summary.append(["日付", "店名", "品目数", "品目合計", "レシート合計", "差額", "ファイル"])
@@ -173,7 +206,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="レシート画像をExcelにまとめます")
     parser.add_argument("inputs", nargs="+", help="画像ファイルまたはフォルダ")
     parser.add_argument("-o", "--output", default="receipts.xlsx", help="出力ファイル名")
+    parser.add_argument("--names", type=Path,
+                        help="代表品名リスト (CSV/TXT、1列目を使用)。品名をこのリストに寄せる")
     args = parser.parse_args()
+
+    names = load_names(args.names) if args.names else None
+    schema, prompt = build_request(names)
 
     images = collect_images(args.inputs)
     if not images:
@@ -185,7 +223,7 @@ def main() -> int:
     for path in images:
         print(f"読み取り中: {path}")
         try:
-            results.append((path, extract_receipt(client, path)))
+            results.append((path, extract_receipt(client, path, schema, prompt)))
         except (anthropic.APIConnectionError, anthropic.APIStatusError, RuntimeError) as e:
             print(f"  失敗: {e}", file=sys.stderr)
 
