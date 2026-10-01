@@ -1,20 +1,23 @@
-"""レシート画像を読み取り、日付・店名・購入品目をExcelにまとめるツール.
+"""レシート画像を読み取り、日付・店名・購入品名・金額をExcelにまとめるツール.
+
+1レシート=1行で、購入品名は「雑貨(トイレットペーパー)」「タクシー代」のような
+シンプルな代表名にまとめる。
 
 使い方:
     python receipt_to_xlsx.py receipts/ -o receipts.xlsx
     python receipt_to_xlsx.py img1.jpg img2.png -o out.xlsx
-    python receipt_to_xlsx.py receipts/ --names names.csv   # 代表品名リストに寄せる
+    python receipt_to_xlsx.py receipts/ --names names.csv   # 区分リストを差し替える
 """
 
 from __future__ import annotations
 
 import argparse
 import base64
-import copy
 import csv
 import io
 import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 import anthropic
@@ -28,49 +31,62 @@ IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".gif", ".webp"}
 MAX_IMAGE_BYTES = 4_500_000  # API上限 5MB に余裕を持たせる
 MAX_LONG_EDGE = 2400
 
+# 参考スプレッドシート「レシートデータのエクセル・CSV化」で使われている区分
+DEFAULT_CATEGORIES = [
+    "タクシー代", "交通費", "交通費チャージ", "飲食代", "飲料", "食品", "雑貨",
+    "事務用品", "PC用品", "工具", "医薬品", "書籍", "花代", "園芸用品", "送料",
+    "宅急便運賃", "通信費", "ユニフォームレンタル等", "メンテナンス料金", "清掃代",
+    "ゴミ処理券", "ゴミ処理手数料", "会費", "部会費", "行政証明書発行手数料",
+]
+HEADER_WORDS = {"区分", "品名", "品目", "代表品名", "購入品名", "商品名"}
+
 RECEIPT_SCHEMA = {
     "type": "object",
     "properties": {
-        "date": {
-            "type": "string",
-            "description": "購入日 (YYYY-MM-DD)。読み取れない場合は空文字",
-        },
+        "date": {"type": "string", "description": "購入日 (YYYY-MM-DD)。読み取れない場合は空文字"},
         "store_name": {"type": "string", "description": "店名。読み取れない場合は空文字"},
+        "purchase_name": {"type": "string", "description": "シンプルな購入品名"},
+        "total": {"type": "number", "description": "合計金額 (円、税込)"},
         "items": {
             "type": "array",
+            "description": "レシートに載っている商品 (確認用)",
             "items": {
                 "type": "object",
                 "properties": {
-                    "name": {"type": "string", "description": "シンプルな代表品名"},
-                    "original_name": {"type": "string", "description": "レシート上の表記そのまま"},
-                    "quantity": {"type": "number", "description": "数量 (不明なら1)"},
-                    "unit_price": {"type": "number", "description": "単価 (円)"},
+                    "name": {"type": "string", "description": "レシート上の表記"},
                     "amount": {"type": "number", "description": "金額 (円、値引き後)"},
                 },
-                "required": ["name", "original_name", "quantity", "unit_price", "amount"],
+                "required": ["name", "amount"],
                 "additionalProperties": False,
             },
         },
-        "total": {"type": "number", "description": "合計金額 (円、税込)"},
     },
-    "required": ["date", "store_name", "items", "total"],
+    "required": ["date", "store_name", "purchase_name", "total", "items"],
     "additionalProperties": False,
 }
 
-PROMPT = """このレシート画像から、購入日・店名・購入品目・合計金額を抽出してください。
-- 日付は西暦 YYYY-MM-DD 形式に変換する(和暦や「26/10/01」のような表記も変換)。
-- 品目には商品のみを含め、小計・合計・税・お預り・お釣り・ポイントなどの行は含めない。
-- 値引き行は直前の商品の金額に反映する。
-- original_name にはレシートの表記どおりに書き起こす。
-- name には、ブランド名・容量・産地・略語などを省いたシンプルな代表品名を書く
-  (例: 「明治おいしい牛乳1000ml」→「牛乳」、「国産若鶏もも肉」→「鶏肉」)。"""
+PROMPT_TEMPLATE = """このレシート画像から、購入日・店名・購入品名・合計金額を抽出してください。
 
-OTHER = "その他"
-HEADER_WORDS = {"品名", "品目", "代表品名", "購入品名", "商品名"}
+- date: 西暦 YYYY-MM-DD 形式に変換する（和暦や「25/10/01」のような表記も変換）。
+- store_name: 店名。チェーン店は支店名まで（例: 「セブン-イレブン 上野桜木2丁目店」）。
+  タクシーは会社名（例: 「日本交通」「国際自動車 (km)」）。
+- total: 税込の支払合計。
+- items: 商品行をレシートの表記どおりに書き起こす。小計・合計・税・お預り・お釣り・
+  ポイントの行は含めず、値引きは直前の商品の金額に反映する。
+- purchase_name: レシート全体を、次の区分リストのいずれかを使ってシンプルに表す。
+  {categories}
+  - 中身を示すと分かりやすい区分は「区分（主な品目）」とし、品目は1〜2個の一般名詞で短く書く。
+    ブランド名・容量・型番は書かない。品目が多いときは「等」を付ける。
+  - タクシー代・飲食代・花代など、区分だけで分かるものは区分のみにする。
+  - どれにも当てはまらない場合は内容を表す短い名前を付け、判別できなければ「不明」とする。
+  例: 「タクシー代」「飲食代」「雑貨（トイレットペーパー）」「雑貨（洗剤・ゴミ袋）」
+      「事務用品（輪ゴム）」「事務用品（ファイル等）」「飲料（Y1000）」「食品（ケーキ類）」
+      「PC用品（SDカード）」「書籍（雑誌代）」「通信費（切手代）」「交通費チャージ」
+  括弧は全角「（）」を使う。"""
 
 
-def load_names(path: Path) -> list[str]:
-    """代表品名リストを読み込む (CSV/TXT の1列目、空行・重複は除く)."""
+def load_categories(path: Path) -> list[str]:
+    """区分リストを読み込む (CSV/TXT の1列目、空行・重複・見出しは除く)."""
     names: list[str] = []
     with path.open(encoding="utf-8-sig", newline="") as f:
         for row in csv.reader(f):
@@ -80,30 +96,20 @@ def load_names(path: Path) -> list[str]:
     return names
 
 
-def build_request(names: list[str] | None) -> tuple[dict, str]:
-    """品名リストがあれば name を列挙型に制限したスキーマとプロンプトを返す."""
-    if not names:
-        return RECEIPT_SCHEMA, PROMPT
-    schema = copy.deepcopy(RECEIPT_SCHEMA)
-    choices = names + ([OTHER] if OTHER not in names else [])
-    schema["properties"]["items"]["items"]["properties"]["name"]["enum"] = choices
-    prompt = PROMPT + f"""
-- name は次の代表品名リストから最も近いものを1つ選ぶ。どれにも当てはまらない場合は「{OTHER}」とする。
-代表品名リスト: {"、".join(names)}"""
-    return schema, prompt
+def build_prompt(categories: list[str]) -> str:
+    return PROMPT_TEMPLATE.format(categories="、".join(categories))
 
 
 def load_image(path: Path) -> tuple[str, str]:
     """画像を(必要なら縮小して)base64化し、(media_type, data) を返す."""
     raw = path.read_bytes()
-    suffix = path.suffix.lower()
     media_type = {
         ".jpg": "image/jpeg",
         ".jpeg": "image/jpeg",
         ".png": "image/png",
         ".gif": "image/gif",
         ".webp": "image/webp",
-    }[suffix]
+    }[path.suffix.lower()]
 
     img = Image.open(io.BytesIO(raw))
     if len(raw) > MAX_IMAGE_BYTES or max(img.size) > MAX_LONG_EDGE:
@@ -121,7 +127,7 @@ def load_image(path: Path) -> tuple[str, str]:
     return media_type, base64.standard_b64encode(raw).decode("utf-8")
 
 
-def extract_receipt(client: anthropic.Anthropic, path: Path, schema: dict, prompt: str) -> dict:
+def extract_receipt(client: anthropic.Anthropic, path: Path, prompt: str) -> dict:
     media_type, data = load_image(path)
     response = client.beta.messages.create(
         model=MODEL,
@@ -130,7 +136,7 @@ def extract_receipt(client: anthropic.Anthropic, path: Path, schema: dict, promp
         fallbacks="default",
         output_config={
             "effort": "medium",
-            "format": {"type": "json_schema", "schema": schema},
+            "format": {"type": "json_schema", "schema": RECEIPT_SCHEMA},
         },
         messages=[{
             "role": "user",
@@ -161,43 +167,64 @@ def collect_images(inputs: list[str]) -> list[Path]:
     return paths
 
 
-def style_header(ws, widths: list[int]) -> None:
+def style_sheet(ws, widths: list[int], money_cols: list[int]) -> None:
     for i, width in enumerate(widths, start=1):
         cell = ws.cell(row=1, column=i)
         cell.font = Font(bold=True, color="FFFFFF")
         cell.fill = PatternFill("solid", fgColor="4472C4")
         cell.alignment = Alignment(horizontal="center")
         ws.column_dimensions[get_column_letter(i)].width = width
+    for col in money_cols:
+        for (cell,) in ws.iter_rows(min_row=2, min_col=col, max_col=col):
+            cell.number_format = "#,##0"
     ws.freeze_panes = "A2"
     ws.auto_filter.ref = ws.dimensions
+
+
+def slash_date(date: str) -> str:
+    return date.replace("-", "/")
+
+
+def write_receipt_sheet(ws, rows: list[tuple[Path, dict]]) -> None:
+    ws.append(["日付", "店名", "購入品名", "金額"])
+    for _, r in rows:
+        ws.append([slash_date(r["date"]), r["store_name"], r["purchase_name"], r["total"]])
+    style_sheet(ws, [12, 30, 30, 10], money_cols=[4])
 
 
 def write_workbook(results: list[tuple[Path, dict]], out: Path) -> None:
     results = sorted(results, key=lambda r: (r[1]["date"] or "9999", r[1]["store_name"]))
     wb = Workbook()
 
-    ws = wb.active
-    ws.title = "明細"
-    ws.append(["日付", "店名", "品名", "数量", "単価", "金額", "レシート表記", "ファイル"])
+    write_receipt_sheet(wb.active, results)
+    wb.active.title = "Master"
+
+    # 月別シート (年が1つだけなら「1月」、複数あれば「2025年1月」)
+    by_month: dict[str, list[tuple[Path, dict]]] = defaultdict(list)
+    for path, r in results:
+        by_month[r["date"][:7] if len(r["date"]) >= 7 else ""].append((path, r))
+    years = {ym[:4] for ym in by_month if ym}
+    for ym, rows in by_month.items():
+        if not ym:
+            title = "日付不明"
+        elif len(years) == 1:
+            title = f"{int(ym[5:7])}月"
+        else:
+            title = f"{ym[:4]}年{int(ym[5:7])}月"
+        write_receipt_sheet(wb.create_sheet(title), rows)
+
+    # 確認用: 読み取った商品行と、商品合計とレシート合計の差額
+    detail = wb.create_sheet("明細(確認用)")
+    detail.append(["日付", "店名", "購入品名", "レシート表記", "金額", "ファイル"])
     for path, r in results:
         for item in r["items"]:
-            ws.append([r["date"], r["store_name"], item["name"], item["quantity"],
-                       item["unit_price"], item["amount"], item["original_name"], path.name])
-    for row in ws.iter_rows(min_row=2, min_col=5, max_col=6):
-        for cell in row:
-            cell.number_format = "#,##0"
-    style_header(ws, [12, 24, 16, 8, 10, 10, 36, 24])
-
-    summary = wb.create_sheet("レシート一覧")
-    summary.append(["日付", "店名", "品目数", "品目合計", "レシート合計", "差額", "ファイル"])
-    for i, (path, r) in enumerate(results, start=2):
-        summary.append([r["date"], r["store_name"], len(r["items"]),
-                        sum(item["amount"] for item in r["items"]), r["total"],
-                        f"=E{i}-D{i}", path.name])
-    for row in summary.iter_rows(min_row=2, min_col=4, max_col=6):
-        for cell in row:
-            cell.number_format = "#,##0"
-    style_header(summary, [12, 24, 8, 12, 12, 10, 24])
+            detail.append([slash_date(r["date"]), r["store_name"], r["purchase_name"],
+                           item["name"], item["amount"], path.name])
+        diff = r["total"] - sum(item["amount"] for item in r["items"])
+        if r["items"] and diff:
+            detail.append([slash_date(r["date"]), r["store_name"], r["purchase_name"],
+                           "(合計との差額: 税・端数など)", diff, path.name])
+    style_sheet(detail, [12, 30, 30, 36, 10, 24], money_cols=[5])
 
     wb.save(out)
 
@@ -207,11 +234,11 @@ def main() -> int:
     parser.add_argument("inputs", nargs="+", help="画像ファイルまたはフォルダ")
     parser.add_argument("-o", "--output", default="receipts.xlsx", help="出力ファイル名")
     parser.add_argument("--names", type=Path,
-                        help="代表品名リスト (CSV/TXT、1列目を使用)。品名をこのリストに寄せる")
+                        help="購入品名の区分リスト (CSV/TXT、1列目を使用)。省略時は既定の区分")
     args = parser.parse_args()
 
-    names = load_names(args.names) if args.names else None
-    schema, prompt = build_request(names)
+    categories = load_categories(args.names) if args.names else DEFAULT_CATEGORIES
+    prompt = build_prompt(categories)
 
     images = collect_images(args.inputs)
     if not images:
@@ -223,7 +250,7 @@ def main() -> int:
     for path in images:
         print(f"読み取り中: {path}")
         try:
-            results.append((path, extract_receipt(client, path, schema, prompt)))
+            results.append((path, extract_receipt(client, path, prompt)))
         except (anthropic.APIConnectionError, anthropic.APIStatusError, RuntimeError) as e:
             print(f"  失敗: {e}", file=sys.stderr)
 
