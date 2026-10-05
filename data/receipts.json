@@ -1804,5 +1804,297 @@
     "amount": 1299
    }
   ]
+ },
+ {
+  "file": "2026-03_p32.jpg",
+  "date": "2026-03-28",
+  "store_name": "Ushimaru",
+  "purchase_name": "飲食代",
+  "total": 33126,
+  "items": [
+   {
+    "name": "ご飲食代",
+    "amount": 33126
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p32.jpg",
+  "date": "2026-03-28",
+  "store_name": "マツモトキヨシ 千葉みなと駅店",
+  "purchase_name": "医薬品（点鼻薬）",
+  "total": 1518,
+  "items": [
+   {
+    "name": "佐藤製薬 ナザール",
+    "amount": 1518
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p32.jpg",
+  "date": "2026-03-28",
+  "store_name": "JR東日本",
+  "purchase_name": "交通費チャージ",
+  "total": 10000,
+  "items": [
+   {
+    "name": "チャージ",
+    "amount": 10000
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p32.jpg",
+  "date": "2026-03-10",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p32.jpg",
+  "date": "2026-03-25",
+  "store_name": "星野商店",
+  "purchase_name": "",
+  "total": 800,
+  "items": [
+   {
+    "name": "一般売上",
+    "amount": 800
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p33.jpg",
+  "date": "2026-03-29",
+  "store_name": "セブン-イレブン 上野桜木2丁目店",
+  "purchase_name": "雑貨（乾電池等）",
+  "total": 1085,
+  "items": [
+   {
+    "name": "エボルタネオ単3 4個",
+    "amount": 658
+   },
+   {
+    "name": "いちご練乳氷 ×2",
+    "amount": 336
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p33.jpg",
+  "date": "2026-03-30",
+  "store_name": "キンコーズ 上野店",
+  "purchase_name": "事務用品（ラミネート加工）",
+  "total": 3256,
+  "items": [
+   {
+    "name": "持込加工手数料",
+    "amount": 2400
+   },
+   {
+    "name": "フルラミネート A3",
+    "amount": 560
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p33.jpg",
+  "date": "2026-03-31",
+  "store_name": "UNIVERSAL DRUG 鶯谷店",
+  "purchase_name": "医薬品（せき止め）",
+  "total": 1408,
+  "items": [
+   {
+    "name": "新ブロン液エース 120mL",
+    "amount": 1280
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p33.jpg",
+  "date": "2026-03-23",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p33.jpg",
+  "date": "2026-03-23",
+  "store_name": "セブン-イレブン 台東東上野6丁目店",
+  "purchase_name": "雑貨（トイレットペーパー）",
+  "total": 600,
+  "items": [
+   {
+    "name": "ネピアトイレ シングル2倍巻 8R(税込・手書き600)",
+    "amount": 600
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p33.jpg",
+  "date": "2026-03-25",
+  "store_name": "東京地下鉄（メトロ）",
+  "purchase_name": "交通費チャージ",
+  "total": 3000,
+  "items": [
+   {
+    "name": "チャージ",
+    "amount": 3000
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p33.jpg",
+  "date": "2026-03-24",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "書籍（雑誌代）",
+  "total": 1100,
+  "items": [
+   {
+    "name": "(手書き但し書き)",
+    "amount": 1100
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p34.jpg",
+  "date": "2026-03-24",
+  "store_name": "株式会社 ユニマットライフ",
+  "purchase_name": "雑貨（マット・モップ）",
+  "total": 1540,
+  "items": [
+   {
+    "name": "エコファインマット WS グレー",
+    "amount": 950
+   },
+   {
+    "name": "ユニモップ スリム ネイビー",
+    "amount": 450
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p34.jpg",
+  "date": "2026-03-25",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "承り診察衣ハーフ",
+    "amount": 451
+   },
+   {
+    "name": "承り病院用パンツ",
+    "amount": 368
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p34.jpg",
+  "date": "2026-03-30",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p35.jpg",
+  "date": "2026-03-30",
+  "store_name": "坂本自動車",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "メーター",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p35.jpg",
+  "date": "2026-03-31",
+  "store_name": "星野商店",
+  "purchase_name": "雑貨（傘）",
+  "total": 1300,
+  "items": [
+   {
+    "name": "カサ",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p35.jpg",
+  "date": "2026-03-31",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p35.jpg",
+  "date": "2026-03-20",
+  "store_name": "Amazon",
+  "purchase_name": "飲料（野菜ジュース）",
+  "total": 8495,
+  "items": [
+   {
+    "name": "カゴメ つぶより野菜 15本 ×2",
+    "amount": 8942
+   },
+   {
+    "name": "割引",
+    "amount": -447
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p36.jpg",
+  "date": "2026-03-23",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（トイレットペーパー）",
+  "total": 986,
+  "items": [
+   {
+    "name": "トイレットペーパー 12ロール",
+    "amount": 1160
+   },
+   {
+    "name": "割引",
+    "amount": -174
+   }
+  ]
  }
 ]
