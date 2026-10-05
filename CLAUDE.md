@@ -16,6 +16,10 @@ API キーは使わず、チャットに添付されたレシート画像を Cla
 5. `data/receipts.json` をコミットしてプッシュする。
 
 ## Google スプレッドシート
-- Master の内容を Google スプレッドシート「レシート整理 2026」に置いている
-  (ID: 18Sg55bOdt5fE40H0IRwfUabKlneoXb2jlzoIeSLVcAU)。
-- 更新は同じファイルに行う(新しいファイルを作るとリンクが変わる)。Google Sheets コネクタが必要。
+- 「レシート整理 2026」(ID: 18Sg55bOdt5fE40H0IRwfUabKlneoXb2jlzoIeSLVcAU)が共有用の本体。
+  Google Sheets コネクタで同じファイルを更新する(新しいファイルを作るとリンクが変わるので作らない)。
+- Master シート(sheetId 1384771203): 日付・店名・購入品名・金額・スキャン。新しいレシートを
+  日付順の位置に追加する(`data/receipts.json` と同じ内容にそろえる)。日付は日付型、金額は数値で書く。
+- 月別シート(1月 = sheetId 1001、2月 = 1002 …)は Master を FILTER する数式なので直接書かない。
+  新しい月のレシートが来たら、同じ形式(見出し4列 + A2 の FILTER 数式、書式も同じ)で月のシートを追加する。
+- 書き込んだら読み直して件数を確認する。
