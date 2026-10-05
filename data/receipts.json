@@ -372,5 +372,328 @@
     "amount": 1000
    }
   ]
+ },
+ {
+  "file": "2026-01_p7.jpg",
+  "date": "2026-01-16",
+  "store_name": "ダイキン工業",
+  "purchase_name": "修理代（エアコン）",
+  "total": 300000,
+  "items": [
+   {
+    "name": "部品（圧縮機・冷媒・ファンモーター他）",
+    "amount": 137220
+   },
+   {
+    "name": "作業費",
+    "amount": 135000
+   },
+   {
+    "name": "出張料",
+    "amount": 5000
+   },
+   {
+    "name": "値引き",
+    "amount": -4493
+   },
+   {
+    "name": "消費税",
+    "amount": 27273
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p7.jpg",
+  "date": "2026-01-16",
+  "store_name": "東京地下鉄（メトロ）",
+  "purchase_name": "交通費チャージ",
+  "total": 3000,
+  "items": [
+   {
+    "name": "チャージ",
+    "amount": 3000
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p7.jpg",
+  "date": "2026-01-17",
+  "store_name": "マルエツ 東上野店",
+  "purchase_name": "雑貨（ティッシュ・トイレットペーパー）",
+  "total": 1126,
+  "items": [
+   {
+    "name": "ディズニーTS ×2",
+    "amount": 636
+   },
+   {
+    "name": "ネピネピTP",
+    "amount": 388
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p8.jpg",
+  "date": "2026-01-19",
+  "store_name": "ジャパン・メディカル＆DS",
+  "purchase_name": "石膏トラップ交換・清掃代",
+  "total": 10076,
+  "items": [
+   {
+    "name": "石膏トラップ交換及びクリーニング",
+    "amount": 10076
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p8.jpg",
+  "date": "2026-01-19",
+  "store_name": "JR東日本",
+  "purchase_name": "交通費チャージ",
+  "total": 10000,
+  "items": [
+   {
+    "name": "チャージ",
+    "amount": 10000
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p8.jpg",
+  "date": "2026-01-20",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p8.jpg",
+  "date": "2026-01-20",
+  "store_name": "鈴木商店",
+  "purchase_name": "",
+  "total": 25000,
+  "items": [
+   {
+    "name": "(但し書きなし)",
+    "amount": 25000
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p9.jpg",
+  "date": "2026-01-20",
+  "store_name": "マルエツ 東上野店",
+  "purchase_name": "雑貨（接着剤等）",
+  "total": 220,
+  "items": [
+   {
+    "name": "雑貨100円均一",
+    "amount": 100
+   },
+   {
+    "name": "接着剤",
+    "amount": 100
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p9.jpg",
+  "date": "2026-01-21",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1347,
+  "items": [
+   {
+    "name": "承り診察衣ハーフ",
+    "amount": 451
+   },
+   {
+    "name": "承り病院用パンツ",
+    "amount": 368
+   },
+   {
+    "name": "承りエプロンフリル無 ×2",
+    "amount": 528
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p9.jpg",
+  "date": "2026-01-22",
+  "store_name": "ヨドバシカメラ MM上野",
+  "purchase_name": "事務用品（ラベル・修正テープ等）",
+  "total": 2777,
+  "items": [
+   {
+    "name": "シヤチハタ HGN-1-K",
+    "amount": 661
+   },
+   {
+    "name": "PLUS 修正テープ WH-635",
+    "amount": 267
+   },
+   {
+    "name": "コクヨ タ-R70-41B",
+    "amount": 486
+   },
+   {
+    "name": "コクヨ タ-R70-41LY",
+    "amount": 463
+   },
+   {
+    "name": "コクヨ タ-D400-08NX3",
+    "amount": 900
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p9.jpg",
+  "date": "2026-01-23",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（トイレットペーパー）",
+  "total": 986,
+  "items": [
+   {
+    "name": "トイレットペーパー 12ロール",
+    "amount": 1160
+   },
+   {
+    "name": "割引",
+    "amount": -174
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p10.jpg",
+  "date": "2026-01-24",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p10.jpg",
+  "date": "2026-01-25",
+  "store_name": "UNIVERSAL DRUG 鶯谷店",
+  "purchase_name": "医薬品（のどタブレット）",
+  "total": 544,
+  "items": [
+   {
+    "name": "龍角散ののどすっきり桔梗タブレット",
+    "amount": 168
+   },
+   {
+    "name": "龍角散ののどすっきりタブレット ハニーレモン ×2",
+    "amount": 336
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p10.jpg",
+  "date": "2026-01-25",
+  "store_name": "シモジマ かっぱ橋店",
+  "purchase_name": "雑貨（チャック袋）",
+  "total": 978,
+  "items": [
+   {
+    "name": "スワン チャックポリ F-4 A6",
+    "amount": 890
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p10.jpg",
+  "date": "2026-01-27",
+  "store_name": "株式会社 ユニマットライフ",
+  "purchase_name": "雑貨（マット・モップ）",
+  "total": 1540,
+  "items": [
+   {
+    "name": "エコファインマット WS グレー",
+    "amount": 950
+   },
+   {
+    "name": "ユニモップ スリム ネイビー",
+    "amount": 450
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p11.jpg",
+  "date": "2026-01-27",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 2948,
+  "items": [
+   {
+    "name": "Y1000 ×21",
+    "amount": 2948
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p11.jpg",
+  "date": "2026-01-28",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1083,
+  "items": [
+   {
+    "name": "承り診察衣ハーフ",
+    "amount": 451
+   },
+   {
+    "name": "承り病院用パンツ",
+    "amount": 368
+   },
+   {
+    "name": "承りエプロンフリル無",
+    "amount": 264
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p11.jpg",
+  "date": "2026-01-29",
+  "store_name": "ヨドバシカメラ MM上野",
+  "purchase_name": "事務用品（ラベル・ボールペン）",
+  "total": 1174,
+  "items": [
+   {
+    "name": "コクヨ タ-D400-08NX3",
+    "amount": 900
+   },
+   {
+    "name": "三菱鉛筆 SXN15010-24 ×2",
+    "amount": 274
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p11.jpg",
+  "date": "2026-01-29",
+  "store_name": "ヨドバシカメラ MM上野",
+  "purchase_name": "PC用品（マウス）",
+  "total": 944,
+  "items": [
+   {
+    "name": "エレコム M-IR07DRBU",
+    "amount": 944
+   }
+  ]
  }
 ]
