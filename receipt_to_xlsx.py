@@ -206,19 +206,20 @@ def page_label(path: Path) -> str:
     return f"{int(m.group(1))}枚目" if m else path.name
 
 
-def write_receipt_sheet(ws, rows: list[tuple[Path, dict]]) -> None:
-    ws.append(["日付", "店名", "購入品名", "金額", "スキャン"])
+def write_receipt_sheet(ws, rows: list[tuple[Path, dict]], with_page: bool = False) -> None:
+    """日付・店名・購入品名・金額の表。with_page なら E列に何枚目かを付ける (Master 用)."""
+    ws.append(["日付", "店名", "購入品名", "金額"] + (["スキャン"] if with_page else []))
     for path, r in rows:
-        ws.append([slash_date(r["date"]), r["store_name"], r["purchase_name"], r["total"],
-                   page_label(path)])
-    style_sheet(ws, [12, 30, 30, 10, 10], money_cols=[4])
+        row = [slash_date(r["date"]), r["store_name"], r["purchase_name"], r["total"]]
+        ws.append(row + ([page_label(path)] if with_page else []))
+    style_sheet(ws, [12, 30, 30, 10] + ([10] if with_page else []), money_cols=[4])
 
 
 def write_workbook(results: list[tuple[Path, dict]], out: Path) -> None:
     results = sorted(results, key=lambda r: (r[1]["date"] or "9999", r[1]["store_name"]))
     wb = Workbook()
 
-    write_receipt_sheet(wb.active, results)
+    write_receipt_sheet(wb.active, results, with_page=True)
     wb.active.title = "Master"
 
     # 月別シート (年が1つだけなら「1月」、複数あれば「2025年1月」)
