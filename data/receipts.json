@@ -2716,5 +2716,207 @@
     "amount": 31400
    }
   ]
+ },
+ {
+  "file": "2026-05_p47.jpg",
+  "date": "2026-05-16",
+  "store_name": "Amazon",
+  "purchase_name": "食品（のどタブレット）",
+  "total": 1390,
+  "items": [
+   {
+    "name": "龍角散ののどすっきりタブレット 6個",
+    "amount": 1390
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p47.jpg",
+  "date": "2026-05-16",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（タイマー・充電器）",
+  "total": 1748,
+  "items": [
+   {
+    "name": "TANITA デジタルタイマー",
+    "amount": 949
+   },
+   {
+    "name": "C1M USB充電器 18650",
+    "amount": 799
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p47.jpg",
+  "date": "2026-05-16",
+  "store_name": "Amazon",
+  "purchase_name": "通信費（Amazon Music）",
+  "total": 1080,
+  "items": [
+   {
+    "name": "Amazon Music Unlimited",
+    "amount": 1080
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p48.jpg",
+  "date": "2026-05-17",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（テープ）",
+  "total": 1499,
+  "items": [
+   {
+    "name": "カモフラージュテープ 4色セット",
+    "amount": 1499
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p48.jpg",
+  "date": "2026-05-19",
+  "store_name": "Amazon",
+  "purchase_name": "飲料（野菜ジュース）",
+  "total": 8495,
+  "items": [
+   {
+    "name": "カゴメ つぶより野菜 15本 ×2",
+    "amount": 8942
+   },
+   {
+    "name": "割引",
+    "amount": -447
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p48.jpg",
+  "date": "2026-05-17",
+  "store_name": "ロイヤルホームセンター 南千住",
+  "purchase_name": "雑貨（針金等）",
+  "total": 987,
+  "items": [
+   {
+    "name": "カラー針金 緑#16X",
+    "amount": 619
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p49.jpg",
+  "date": "2026-05-18",
+  "store_name": "株式会社 ユニマットライフ",
+  "purchase_name": "雑貨（マット・モップ・消毒液）",
+  "total": 3135,
+  "items": [
+   {
+    "name": "4/7 モップ・手指消毒",
+    "amount": 1595
+   },
+   {
+    "name": "4/21 マット・モップ",
+    "amount": 1540
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p50.jpg",
+  "date": "2026-05-19",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p50.jpg",
+  "date": "2026-05-20",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1083,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 1083
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p50.jpg",
+  "date": "2026-05-20",
+  "store_name": "ジャパン・メディカル＆DS",
+  "purchase_name": "石膏トラップ交換・清掃代",
+  "total": 10076,
+  "items": [
+   {
+    "name": "石膏トラップ交換及びクリーニング",
+    "amount": 10076
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p50.jpg",
+  "date": "2026-05-22",
+  "store_name": "マルエツ 東上野店",
+  "purchase_name": "雑貨",
+  "total": 220,
+  "items": [
+   {
+    "name": "雑貨100円均一 ×2",
+    "amount": 200
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p51.jpg",
+  "date": "2026-05-22",
+  "store_name": "Amazon",
+  "purchase_name": "事務用品（コピー用紙）",
+  "total": 855,
+  "items": [
+   {
+    "name": "コピー用紙(出金伝票)",
+    "amount": 855
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p51.jpg",
+  "date": "2026-05-22",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p51.jpg",
+  "date": "2026-05-22",
+  "store_name": "Amazon",
+  "purchase_name": "医薬品（絆創膏）",
+  "total": 1069,
+  "items": [
+   {
+    "name": "BAND-AID キズパワーパッド 水仕事用",
+    "amount": 1258
+   },
+   {
+    "name": "割引",
+    "amount": -189
+   }
+  ]
  }
 ]
