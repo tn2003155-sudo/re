@@ -2918,5 +2918,206 @@
     "amount": -189
    }
   ]
+ },
+ {
+  "file": "2026-05_p52.jpg",
+  "date": "2026-05-23",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（ゴミ袋）",
+  "total": 486,
+  "items": [
+   {
+    "name": "オルディ ゴミ袋 45L 50枚",
+    "amount": 540
+   },
+   {
+    "name": "割引",
+    "amount": -54
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p52.jpg",
+  "date": "2026-05-23",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（トイレットペーパー）",
+  "total": 986,
+  "items": [
+   {
+    "name": "トイレットペーパー 12ロール",
+    "amount": 1160
+   },
+   {
+    "name": "割引",
+    "amount": -174
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p52.jpg",
+  "date": "2026-05-23",
+  "store_name": "ファミリーマート 東上野五丁目店",
+  "purchase_name": "雑貨（ティッシュ）",
+  "total": 434,
+  "items": [
+   {
+    "name": "スコッティ1.5倍W8(クーポン-50・マーカー部分のみ)",
+    "amount": 434
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p52.jpg",
+  "date": "2026-05-23",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "",
+  "total": 1925,
+  "items": [
+   {
+    "name": "(明細なし・10%課税)",
+    "amount": 1925
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p53.jpg",
+  "date": "2026-05-24",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（補修テープ）",
+  "total": 1399,
+  "items": [
+   {
+    "name": "SOMOTO 補修テープ",
+    "amount": 1399
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p53.jpg",
+  "date": "2026-05-26",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p53.jpg",
+  "date": "2026-05-27",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 819
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p53.jpg",
+  "date": "2026-05-27",
+  "store_name": "Amazon",
+  "purchase_name": "医薬品（絆創膏）",
+  "total": 1820,
+  "items": [
+   {
+    "name": "BAND-AID キズパワーパッド 大きめ 12枚×2",
+    "amount": 2141
+   },
+   {
+    "name": "割引",
+    "amount": -321
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p54.jpg",
+  "date": "2026-05-29",
+  "store_name": "帝都自動車交通",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "メータ運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p54.jpg",
+  "date": "2026-05-30",
+  "store_name": "山手交通 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "基本運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p54.jpg",
+  "date": "2026-06-26",
+  "store_name": "株式会社 ユニマットライフ",
+  "purchase_name": "雑貨（マット・モップ・消毒液）",
+  "total": 3135,
+  "items": [
+   {
+    "name": "5/8 モップ・手指消毒",
+    "amount": 1595
+   },
+   {
+    "name": "5/20 マット・モップ",
+    "amount": 1540
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p55.jpg",
+  "date": "2026-05-12",
+  "store_name": "東京都台東区歯科医師会",
+  "purchase_name": "会費・負担金等",
+  "total": 44000,
+  "items": [
+   {
+    "name": "会費（前期）",
+    "amount": 20000
+   },
+   {
+    "name": "会館維持管理（前期）",
+    "amount": 6000
+   },
+   {
+    "name": "福祉負担金（年額）",
+    "amount": 18000
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p56.jpg",
+  "date": "2026-05-15",
+  "store_name": "東京都歯科医師会",
+  "purchase_name": "会費（都歯・日歯）",
+  "total": 64000,
+  "items": [
+   {
+    "name": "都歯 会費 前期",
+    "amount": 28000
+   },
+   {
+    "name": "福祉総合保険保険料 4〜9月",
+    "amount": 17000
+   },
+   {
+    "name": "日歯 会費 前期",
+    "amount": 19000
+   }
+  ]
  }
 ]
