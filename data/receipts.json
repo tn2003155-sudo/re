@@ -1,14 +1,380 @@
 [
-  {"file": "2026-01_p1.jpg", "date": "2026-01-01", "store_name": "国際自動車 (km)", "purchase_name": "タクシー代", "total": 1200,
-   "items": [{"name": "基本運賃", "amount": 1200}]},
-  {"file": "2026-01_p1.jpg", "date": "2026-01-04", "store_name": "国際自動車 (km)", "purchase_name": "タクシー代", "total": 1200,
-   "items": [{"name": "基本運賃", "amount": 700}, {"name": "迎車料金", "amount": 500}]},
-  {"file": "2026-01_p1.jpg", "date": "2026-01-05", "store_name": "つばめ交通", "purchase_name": "タクシー代", "total": 1900,
-   "items": [{"name": "運賃", "amount": 1300}, {"name": "迎車料金", "amount": 400}, {"name": "通行料他", "amount": 200}]},
-  {"file": "2026-01_p1.jpg", "date": "2026-01-06", "store_name": "省東自動車", "purchase_name": "タクシー代", "total": 1900,
-   "items": [{"name": "運賃", "amount": 1900}]},
-  {"file": "2026-01_p1.jpg", "date": "2026-01-07", "store_name": "東京ヤクルト販売", "purchase_name": "飲料（Y1000）", "total": 3931,
-   "items": [{"name": "Y1000 ×28", "amount": 3931}]},
-  {"file": "2026-01_p1.jpg", "date": "2026-01-07", "store_name": "ダイソー 多慶屋御徒町店", "purchase_name": "雑貨", "total": 110,
-   "items": [{"name": "ステンレス製チタンコート", "amount": 100}]}
+ {
+  "file": "2026-01_p1.jpg",
+  "date": "2026-01-01",
+  "store_name": "国際自動車 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "基本運賃",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p1.jpg",
+  "date": "2026-01-04",
+  "store_name": "国際自動車 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "基本運賃",
+    "amount": 700
+   },
+   {
+    "name": "迎車料金",
+    "amount": 500
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p1.jpg",
+  "date": "2026-01-05",
+  "store_name": "つばめ交通",
+  "purchase_name": "タクシー代",
+  "total": 1900,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   },
+   {
+    "name": "迎車料金",
+    "amount": 400
+   },
+   {
+    "name": "通行料他",
+    "amount": 200
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p1.jpg",
+  "date": "2026-01-06",
+  "store_name": "省東自動車",
+  "purchase_name": "タクシー代",
+  "total": 1900,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1900
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p1.jpg",
+  "date": "2026-01-07",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p1.jpg",
+  "date": "2026-01-07",
+  "store_name": "ダイソー 多慶屋御徒町店",
+  "purchase_name": "雑貨",
+  "total": 110,
+  "items": [
+   {
+    "name": "ステンレス製チタンコート",
+    "amount": 100
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p2.jpg",
+  "date": "2026-01-07",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "承り診察衣ハーフ",
+    "amount": 451
+   },
+   {
+    "name": "承り病院用パンツ",
+    "amount": 368
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p2.jpg",
+  "date": "2026-01-07",
+  "store_name": "日の丸自動車グループ",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "メータ運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p2.jpg",
+  "date": "",
+  "store_name": "Osteria Pianino",
+  "purchase_name": "飲食代",
+  "total": 17400,
+  "items": [
+   {
+    "name": "ご飲食代",
+    "amount": 17400
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p2.jpg",
+  "date": "2026-01-08",
+  "store_name": "（部会費）",
+  "purchase_name": "12月分部会費",
+  "total": 6000,
+  "items": [
+   {
+    "name": "12月分部会費",
+    "amount": 6000
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p3.jpg",
+  "date": "2026-01-08",
+  "store_name": "ヨドバシカメラ MM上野",
+  "purchase_name": "事務用品（メモ用紙）",
+  "total": 301,
+  "items": [
+   {
+    "name": "3M CN-13カラーキューブ",
+    "amount": 301
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p3.jpg",
+  "date": "2026-01-08",
+  "store_name": "東都東タクシー",
+  "purchase_name": "タクシー代",
+  "total": 1700,
+  "items": [
+   {
+    "name": "メーター運賃",
+    "amount": 1700
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p3.jpg",
+  "date": "2026-01-09",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "不明",
+  "total": 2645,
+  "items": [
+   {
+    "name": "(明細なし・10%課税)",
+    "amount": 2645
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p3.jpg",
+  "date": "2026-01-09",
+  "store_name": "東京タクシー",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "基本運賃",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p3.jpg",
+  "date": "2026-01-09",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p3.jpg",
+  "date": "2026-01-09",
+  "store_name": "マルエツ 東上野店",
+  "purchase_name": "雑貨（トイレットペーパー）",
+  "total": 438,
+  "items": [
+   {
+    "name": "ネピネピTP",
+    "amount": 399
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p4.jpg",
+  "date": "2026-01-10",
+  "store_name": "日の丸自動車グループ",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "メータ運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p4.jpg",
+  "date": "2026-01-10",
+  "store_name": "日本郵便（上野郵便局）",
+  "purchase_name": "通信費（切手代）",
+  "total": 620,
+  "items": [
+   {
+    "name": "切手代",
+    "amount": 620
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p4.jpg",
+  "date": "2026-01-11",
+  "store_name": "セブン-イレブン 上野桜木2丁目店",
+  "purchase_name": "ゴミ処理券（粗大A）",
+  "total": 400,
+  "items": [
+   {
+    "name": "台東区ゴミ処理券粗大A ×2",
+    "amount": 400
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p4.jpg",
+  "date": "2026-01-11",
+  "store_name": "Amazon",
+  "purchase_name": "家具（チェスト）",
+  "total": 6926,
+  "items": [
+   {
+    "name": "WOODPAL 木製チェスト（4段）",
+    "amount": 9980
+   },
+   {
+    "name": "Amazonポイント利用",
+    "amount": -3054
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p5.jpg",
+  "date": "2026-01-11",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（ゴミ袋）",
+  "total": 2625,
+  "items": [
+   {
+    "name": "ゴミ袋120L 半透明 100枚",
+    "amount": 2625
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p5.jpg",
+  "date": "2026-01-12",
+  "store_name": "日興自動車交通",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "メーター運賃",
+    "amount": 800
+   },
+   {
+    "name": "固定迎車料金",
+    "amount": 400
+   },
+   {
+    "name": "立替料金",
+    "amount": 200
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p5.jpg",
+  "date": "2026-01-13",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 2948,
+  "items": [
+   {
+    "name": "Y1000 ×21",
+    "amount": 2948
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p5.jpg",
+  "date": "2026-01-15",
+  "store_name": "日本郵便（上野郵便局）",
+  "purchase_name": "通信費（郵便料金・封筒）",
+  "total": 522,
+  "items": [
+   {
+    "name": "第一種定形外（規格外）",
+    "amount": 390
+   },
+   {
+    "name": "クッション封筒（小）",
+    "amount": 132
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p6.jpg",
+  "date": "2026-01-13",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（ゴミ袋）",
+  "total": 3450,
+  "items": [
+   {
+    "name": "ゴミ袋120L とって付き 100枚",
+    "amount": 3450
+   }
+  ]
+ },
+ {
+  "file": "2026-01_p6.jpg",
+  "date": "2026-01-16",
+  "store_name": "株式会社 ユニマットライフ",
+  "purchase_name": "雑貨（モップ・消毒液）",
+  "total": 1595,
+  "items": [
+   {
+    "name": "ユニモップ スリム ネイビー",
+    "amount": 450
+   },
+   {
+    "name": "G-line手指消毒",
+    "amount": 1000
+   }
+  ]
+ }
 ]
