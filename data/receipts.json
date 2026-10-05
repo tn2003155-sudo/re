@@ -695,5 +695,361 @@
     "amount": 944
    }
   ]
+ },
+ {
+  "file": "2026-02_p12.jpg",
+  "date": "2026-02-03",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 2948,
+  "items": [
+   {
+    "name": "Y1000 ×21",
+    "amount": 2948
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p12.jpg",
+  "date": "2026-02-04",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "承り診察衣ハーフ",
+    "amount": 451
+   },
+   {
+    "name": "承り病院用パンツ",
+    "amount": 368
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p12.jpg",
+  "date": "2026-02-04",
+  "store_name": "足立タクシー",
+  "purchase_name": "タクシー代",
+  "total": 1500,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1500
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p12.jpg",
+  "date": "2026-02-06",
+  "store_name": "豊和自動車",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p12.jpg",
+  "date": "2026-02-06",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "事務用品（封筒）",
+  "total": 620,
+  "items": [
+   {
+    "name": "(手書きメモ: 封筒)",
+    "amount": 620
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p13.jpg",
+  "date": "2026-02-05",
+  "store_name": "シモジマ かっぱ橋店",
+  "purchase_name": "雑貨（使い捨て容器）",
+  "total": 1143,
+  "items": [
+   {
+    "name": "バガス丼ぶり KR350 150入",
+    "amount": 643
+   },
+   {
+    "name": "バガス丼ぶり KR250 150入",
+    "amount": 500
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p13.jpg",
+  "date": "2026-02-05",
+  "store_name": "ヤマト運輸 台東根岸",
+  "purchase_name": "雑貨（梱包資材）",
+  "total": 195,
+  "items": [
+   {
+    "name": "(明細なし)",
+    "amount": 195
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p13.jpg",
+  "date": "2026-02-05",
+  "store_name": "日本郵便（上野郵便局）",
+  "purchase_name": "通信費（はがき交換手数料・切手）",
+  "total": 505,
+  "items": [
+   {
+    "name": "はがき→切手 交換手数料",
+    "amount": 390
+   },
+   {
+    "name": "交換差金",
+    "amount": 5
+   },
+   {
+    "name": "110円普通切手",
+    "amount": 110
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p13.jpg",
+  "date": "2026-02-06",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p13.jpg",
+  "date": "2026-02-07",
+  "store_name": "政和自動車",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p14.jpg",
+  "date": "2026-02-07",
+  "store_name": "鮨処 鶴八",
+  "purchase_name": "飲食代",
+  "total": 24860,
+  "items": [
+   {
+    "name": "御食事代",
+    "amount": 24860
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p14.jpg",
+  "date": "2026-02-08",
+  "store_name": "日本交通（新木場営業所）",
+  "purchase_name": "タクシー代",
+  "total": 1000,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p14.jpg",
+  "date": "2026-02-09",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 2948,
+  "items": [
+   {
+    "name": "Y1000 ×21",
+    "amount": 2948
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p14.jpg",
+  "date": "2026-02-09",
+  "store_name": "（部会費）",
+  "purchase_name": "1月分部会費",
+  "total": 6000,
+  "items": [
+   {
+    "name": "1月分部会費",
+    "amount": 6000
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p15.jpg",
+  "date": "2026-02-09",
+  "store_name": "日交練馬",
+  "purchase_name": "タクシー代",
+  "total": 1600,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1600
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p15.jpg",
+  "date": "2026-02-10",
+  "store_name": "日の丸自動車グループ",
+  "purchase_name": "タクシー代",
+  "total": 1800,
+  "items": [
+   {
+    "name": "メータ運賃",
+    "amount": 1400
+   },
+   {
+    "name": "迎車料金",
+    "amount": 400
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p15.jpg",
+  "date": "2026-02-10",
+  "store_name": "株式会社 ユニマットライフ",
+  "purchase_name": "雑貨（モップ・消毒液）",
+  "total": 1595,
+  "items": [
+   {
+    "name": "ユニモップ スリム ネイビー",
+    "amount": 450
+   },
+   {
+    "name": "G-line手指消毒",
+    "amount": 1000
+   },
+   {
+    "name": "乾電池 単二 ×4(サービス)",
+    "amount": 0
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p16.jpg",
+  "date": "2026-02-11",
+  "store_name": "株式会社イナムラショウゾウ",
+  "purchase_name": "食品（ケーキ類）",
+  "total": 2780,
+  "items": [
+   {
+    "name": "苺のミルフィユ",
+    "amount": 810
+   },
+   {
+    "name": "特製苺ロール(小) ×2",
+    "amount": 1240
+   },
+   {
+    "name": "サバラン",
+    "amount": 730
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p16.jpg",
+  "date": "2026-02-13",
+  "store_name": "帝都自動車交通",
+  "purchase_name": "タクシー代",
+  "total": 1700,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1700
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p16.jpg",
+  "date": "2026-02-15",
+  "store_name": "Osteria Pianino",
+  "purchase_name": "飲食代",
+  "total": 19100,
+  "items": [
+   {
+    "name": "ご飲食代",
+    "amount": 19100
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p16.jpg",
+  "date": "2026-02-16",
+  "store_name": "大和自動車交通江東",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p16.jpg",
+  "date": "2026-02-16",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p16.jpg",
+  "date": "2026-02-17",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 2948,
+  "items": [
+   {
+    "name": "Y1000 ×21",
+    "amount": 2948
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p16.jpg",
+  "date": "2026-02-18",
+  "store_name": "東洋交通",
+  "purchase_name": "タクシー代",
+  "total": 1100,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1100
+   }
+  ]
  }
 ]
