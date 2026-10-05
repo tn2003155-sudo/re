@@ -1238,11 +1238,11 @@
   "date": "2026-02-28",
   "store_name": "鮨処 鶴八",
   "purchase_name": "飲食代",
-  "total": 89600,
+  "total": 39600,
   "items": [
    {
     "name": "御食事代",
-    "amount": 89600
+    "amount": 39600
    }
   ]
  },
