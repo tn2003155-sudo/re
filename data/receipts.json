@@ -1051,5 +1051,246 @@
     "amount": 1100
    }
   ]
+ },
+ {
+  "file": "2026-02_p17.jpg",
+  "date": "2026-02-18",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "書籍（雑誌代）",
+  "total": 930,
+  "items": [
+   {
+    "name": "ザッシ",
+    "amount": 930
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p17.jpg",
+  "date": "2026-02-21",
+  "store_name": "コトバスMX",
+  "purchase_name": "タクシー代",
+  "total": 1790,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1790
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p17.jpg",
+  "date": "2026-02-22",
+  "store_name": "土井タクシー",
+  "purchase_name": "タクシー代",
+  "total": 1700,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1700
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p17.jpg",
+  "date": "2026-02-22",
+  "store_name": "瀬戸内タクシー",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p17.jpg",
+  "date": "2026-03-22",
+  "store_name": "弥彦タクシー",
+  "purchase_name": "タクシー代",
+  "total": 2400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 2400
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p17.jpg",
+  "date": "2026-02-23",
+  "store_name": "里商店",
+  "purchase_name": "送料",
+  "total": 1200,
+  "items": [
+   {
+    "name": "送料",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p17.jpg",
+  "date": "2026-02-23",
+  "store_name": "里商店",
+  "purchase_name": "食品（ミカン）",
+  "total": 4320,
+  "items": [
+   {
+    "name": "ミカン ×16",
+    "amount": 4320
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p17.jpg",
+  "date": "2026-02-23",
+  "store_name": "愛媛近鉄タクシー",
+  "purchase_name": "タクシー代",
+  "total": 2000,
+  "items": [
+   {
+    "name": "基本運賃",
+    "amount": 1800
+   },
+   {
+    "name": "迎車料金",
+    "amount": 200
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p18.jpg",
+  "date": "2026-01-22",
+  "store_name": "アイリスオーヤマ",
+  "purchase_name": "工事代（LED照明器具の改修）",
+  "total": 173937,
+  "items": [
+   {
+    "name": "お見積り一式",
+    "amount": 158125
+   },
+   {
+    "name": "消費税",
+    "amount": 15812
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p19.jpg",
+  "date": "2026-02-24",
+  "store_name": "株式会社 ユニマットライフ",
+  "purchase_name": "雑貨（マット・モップ）",
+  "total": 1540,
+  "items": [
+   {
+    "name": "エコファインマット WS グレー",
+    "amount": 950
+   },
+   {
+    "name": "ユニモップ スリム ネイビー",
+    "amount": 450
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p19.jpg",
+  "date": "2026-02-24",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p20.jpg",
+  "date": "2026-02-26",
+  "store_name": "メガネ・コンタクト369+",
+  "purchase_name": "メガネ代",
+  "total": 47300,
+  "items": [
+   {
+    "name": "メガネ代金",
+    "amount": 47300
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p20.jpg",
+  "date": "2026-02-27",
+  "store_name": "セブン-イレブン 台東東上野6丁目店",
+  "purchase_name": "ゴミ処理券（45L）",
+  "total": 7820,
+  "items": [
+   {
+    "name": "台東区ごみ処理券45L ×2",
+    "amount": 7820
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p20.jpg",
+  "date": "2026-02-28",
+  "store_name": "鮨処 鶴八",
+  "purchase_name": "飲食代",
+  "total": 89600,
+  "items": [
+   {
+    "name": "御食事代",
+    "amount": 89600
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p21.jpg",
+  "date": "2026-02-24",
+  "store_name": "Amazon",
+  "purchase_name": "PC用品（USBケーブル）",
+  "total": 2497,
+  "items": [
+   {
+    "name": "Access USB二股ケーブル Y字2分岐",
+    "amount": 2497
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p21.jpg",
+  "date": "2026-02-19",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（ゴミ袋）",
+  "total": 431,
+  "items": [
+   {
+    "name": "オルディ ゴミ袋 45L 50枚",
+    "amount": 479
+   },
+   {
+    "name": "割引",
+    "amount": -48
+   }
+  ]
+ },
+ {
+  "file": "2026-02_p21.jpg",
+  "date": "2026-02-19",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（トイレットペーパー）",
+  "total": 986,
+  "items": [
+   {
+    "name": "トイレットペーパー 12ロール",
+    "amount": 1160
+   },
+   {
+    "name": "割引",
+    "amount": -174
+   }
+  ]
  }
 ]
