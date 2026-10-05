@@ -1292,5 +1292,263 @@
     "amount": -174
    }
   ]
+ },
+ {
+  "file": "2026-03_p22.jpg",
+  "date": "2026-02-16",
+  "store_name": "Amazon",
+  "purchase_name": "飲料（野菜ジュース）",
+  "total": 8495,
+  "items": [
+   {
+    "name": "カゴメ つぶより野菜 15本 ×2",
+    "amount": 8942
+   },
+   {
+    "name": "割引",
+    "amount": -447
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p23.jpg",
+  "date": "2026-03-01",
+  "store_name": "日本郵便",
+  "purchase_name": "通信費（郵便料金・簡易書留）",
+  "total": 460,
+  "items": [
+   {
+    "name": "第一種定形",
+    "amount": 110
+   },
+   {
+    "name": "簡易書留",
+    "amount": 350
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p23.jpg",
+  "date": "2026-03-02",
+  "store_name": "東都タクシー",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p23.jpg",
+  "date": "2026-03-03",
+  "store_name": "国際自動車 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p23.jpg",
+  "date": "2026-03-03",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p23.jpg",
+  "date": "2026-03-03",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p23.jpg",
+  "date": "2026-03-04",
+  "store_name": "マコト交通",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p24.jpg",
+  "date": "2026-03-04",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1276,
+  "items": [
+   {
+    "name": "承りエプロンフリル無 ×2",
+    "amount": 528
+   },
+   {
+    "name": "承りタオルケット",
+    "amount": 748
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p24.jpg",
+  "date": "2026-03-05",
+  "store_name": "AL COVO",
+  "purchase_name": "飲食代",
+  "total": 29100,
+  "items": [
+   {
+    "name": "飲食代",
+    "amount": 29100
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p24.jpg",
+  "date": "2026-03-05",
+  "store_name": "坂本自動車",
+  "purchase_name": "タクシー代",
+  "total": 700,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 700
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p24.jpg",
+  "date": "2026-03-05",
+  "store_name": "有限会社 大三機工",
+  "purchase_name": "メンテナンス料金・活性炭代",
+  "total": 27390,
+  "items": [
+   {
+    "name": "メンテナンス料金",
+    "amount": 10670
+   },
+   {
+    "name": "活性炭代",
+    "amount": 16720
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p25.jpg",
+  "date": "2026-03-06",
+  "store_name": "Amazon",
+  "purchase_name": "PC用品（USB変換アダプタ）",
+  "total": 585,
+  "items": [
+   {
+    "name": "MSL FORCE タイプC USB変換アダプタ ×2",
+    "amount": 585
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p25.jpg",
+  "date": "2026-03-06",
+  "store_name": "扇橋交通",
+  "purchase_name": "タクシー代",
+  "total": 1100,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1100
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p25.jpg",
+  "date": "2026-03-07",
+  "store_name": "日の丸自動車グループ",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p25.jpg",
+  "date": "2026-03-07",
+  "store_name": "往来堂書店",
+  "purchase_name": "書籍代",
+  "total": 3666,
+  "items": [
+   {
+    "name": "書籍代",
+    "amount": 3666
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p25.jpg",
+  "date": "2026-03-09",
+  "store_name": "山下タクシー",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p26.jpg",
+  "date": "2026-03-09",
+  "store_name": "（部会費）",
+  "purchase_name": "2月分部会費",
+  "total": 6000,
+  "items": [
+   {
+    "name": "2月分部会費",
+    "amount": 6000
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p26.jpg",
+  "date": "2026-03-10",
+  "store_name": "株式会社 ユニマットライフ",
+  "purchase_name": "雑貨（モップ・消毒液）",
+  "total": 1595,
+  "items": [
+   {
+    "name": "ユニモップ スリム ネイビー",
+    "amount": 450
+   },
+   {
+    "name": "G-line手指消毒",
+    "amount": 1000
+   }
+  ]
  }
 ]
