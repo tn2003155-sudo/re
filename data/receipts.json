@@ -1550,5 +1550,259 @@
     "amount": 1000
    }
   ]
+ },
+ {
+  "file": "2026-03_p27.jpg",
+  "date": "2026-03-10",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p27.jpg",
+  "date": "2026-03-10",
+  "store_name": "日本交通グループ（すばる交通）",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p27.jpg",
+  "date": "2026-03-11",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1083,
+  "items": [
+   {
+    "name": "承り診察衣ハーフ",
+    "amount": 451
+   },
+   {
+    "name": "承り病院用パンツ",
+    "amount": 368
+   },
+   {
+    "name": "承りエプロンフリル無",
+    "amount": 264
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p27.jpg",
+  "date": "2026-03-11",
+  "store_name": "日の出交通",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p27.jpg",
+  "date": "2026-03-13",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p28.jpg",
+  "date": "2026-03-13",
+  "store_name": "岡本紙文具店",
+  "purchase_name": "事務用品（修正テープ）",
+  "total": 1067,
+  "items": [
+   {
+    "name": "修整テープ",
+    "amount": 1067
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p28.jpg",
+  "date": "2026-03-13",
+  "store_name": "栄自動車",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p28.jpg",
+  "date": "2026-03-17",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p29.jpg",
+  "date": "2026-03-18",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（傘ホルダー）",
+  "total": 3099,
+  "items": [
+   {
+    "name": "AnT 傘立て 自転車 傘ホルダー",
+    "amount": 3099
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p29.jpg",
+  "date": "2026-03-18",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "承り診察衣ハーフ",
+    "amount": 451
+   },
+   {
+    "name": "承り病院用パンツ",
+    "amount": 368
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p29.jpg",
+  "date": "2026-03-19",
+  "store_name": "マルエツ 東上野店",
+  "purchase_name": "雑貨",
+  "total": 922,
+  "items": [
+   {
+    "name": "フラワ1.5S8",
+    "amount": 439
+   },
+   {
+    "name": "雑貨100円均一 ×4",
+    "amount": 400
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p30.jpg",
+  "date": "2026-03-21",
+  "store_name": "灯りの食邸 KOKAJIYA",
+  "purchase_name": "飲食代",
+  "total": 57200,
+  "items": [
+   {
+    "name": "お食事代",
+    "amount": 57200
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p30.jpg",
+  "date": "2026-03-21",
+  "store_name": "弥彦タクシー",
+  "purchase_name": "タクシー代",
+  "total": 3500,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 3500
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p30.jpg",
+  "date": "2026-03-23",
+  "store_name": "鈴木商店",
+  "purchase_name": "不用品回収代",
+  "total": 15000,
+  "items": [
+   {
+    "name": "不用品回収手間代",
+    "amount": 15000
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p31.jpg",
+  "date": "2026-03-23",
+  "store_name": "Amazon",
+  "purchase_name": "PC用品（モバイルバッテリー）",
+  "total": 2846,
+  "items": [
+   {
+    "name": "KEEZING 薄型モバイルバッテリー 8000mAh",
+    "amount": 2846
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p31.jpg",
+  "date": "2026-03-24",
+  "store_name": "鮨処 鶴八",
+  "purchase_name": "飲食代",
+  "total": 28650,
+  "items": [
+   {
+    "name": "御食事代",
+    "amount": 28650
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p31.jpg",
+  "date": "2026-03-25",
+  "store_name": "Mamma Luisa's Table",
+  "purchase_name": "飲食代",
+  "total": 47080,
+  "items": [
+   {
+    "name": "ご飲食代",
+    "amount": 47080
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p31.jpg",
+  "date": "2026-03-26",
+  "store_name": "UNIVERSAL DRUG 鶯谷店",
+  "purchase_name": "雑貨（食洗機用洗剤）",
+  "total": 1428,
+  "items": [
+   {
+    "name": "ジョイジェルタブ 48P",
+    "amount": 1299
+   }
+  ]
  }
 ]
