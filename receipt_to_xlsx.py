@@ -17,6 +17,7 @@ import base64
 import csv
 import io
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -199,11 +200,18 @@ def slash_date(date: str) -> str:
     return date.replace("-", "/")
 
 
+def page_label(path: Path) -> str:
+    """スキャン画像の何枚目か (ファイル名末尾の _p2 などから「2枚目」)。無ければファイル名."""
+    m = re.search(r"_p(\d+)$", path.stem)
+    return f"{int(m.group(1))}枚目" if m else path.name
+
+
 def write_receipt_sheet(ws, rows: list[tuple[Path, dict]]) -> None:
-    ws.append(["日付", "店名", "購入品名", "金額"])
-    for _, r in rows:
-        ws.append([slash_date(r["date"]), r["store_name"], r["purchase_name"], r["total"]])
-    style_sheet(ws, [12, 30, 30, 10], money_cols=[4])
+    ws.append(["日付", "店名", "購入品名", "金額", "スキャン"])
+    for path, r in rows:
+        ws.append([slash_date(r["date"]), r["store_name"], r["purchase_name"], r["total"],
+                   page_label(path)])
+    style_sheet(ws, [12, 30, 30, 10, 10], money_cols=[4])
 
 
 def write_workbook(results: list[tuple[Path, dict]], out: Path) -> None:

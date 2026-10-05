@@ -8,6 +8,8 @@ API キーは使わず、チャットに添付されたレシート画像を Cla
    `receipt_to_xlsx.py` の `PROMPT_TEMPLATE`(日付・店名・購入品名のルール、区分リスト)に従う。
    - 同じ取引の領収証とレシートは1件にまとめる。
    - 同じ日付・店名・金額のものが既にあれば、二重登録になっていないか確認する。
+   - `file` は `YYYY-MM_p<通し番号>.jpg`(例: 2026-01_p7.jpg)。Excel の E列「◯枚目」はこの番号から作る。
+     番号はその月のスキャンの何枚目かで、既存データの続きから振る。
 3. `python receipt_to_xlsx.py --from-json data/receipts.json -o receipts.xlsx` で Excel を作り、ユーザーに送る。
 4. 読み取りに自信がない項目(かすれ・途中で切れた品名など)はユーザーに伝える。
 5. `data/receipts.json` をコミットしてプッシュする。
