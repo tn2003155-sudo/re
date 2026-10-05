@@ -121,7 +121,7 @@
  },
  {
   "file": "2026-01_p2.jpg",
-  "date": "",
+  "date": "2026-01-08",
   "store_name": "Osteria Pianino",
   "purchase_name": "飲食代",
   "total": 17400,
@@ -175,7 +175,7 @@
   "file": "2026-01_p3.jpg",
   "date": "2026-01-09",
   "store_name": "LAWSON 東上野五丁目店",
-  "purchase_name": "不明",
+  "purchase_name": "",
   "total": 2645,
   "items": [
    {
@@ -271,15 +271,11 @@
   "date": "2026-01-11",
   "store_name": "Amazon",
   "purchase_name": "家具（チェスト）",
-  "total": 6926,
+  "total": 9980,
   "items": [
    {
     "name": "WOODPAL 木製チェスト（4段）",
     "amount": 9980
-   },
-   {
-    "name": "Amazonポイント利用",
-    "amount": -3054
    }
   ]
  },
