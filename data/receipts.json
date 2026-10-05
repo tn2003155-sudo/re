@@ -2096,5 +2096,269 @@
     "amount": -174
    }
   ]
+ },
+ {
+  "file": "2026-03_p37.jpg",
+  "date": "2026-03-29",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（傘立て）",
+  "total": 1680,
+  "items": [
+   {
+    "name": "さえだ 傘立て 自転車 傘ホルダー",
+    "amount": 1680
+   }
+  ]
+ },
+ {
+  "file": "2026-03_p37.jpg",
+  "date": "2026-03-31",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（レインコート）",
+  "total": 2998,
+  "items": [
+   {
+    "name": "QulbltX レインコート",
+    "amount": 2998
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p38.jpg",
+  "date": "2026-04-01",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1083,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 1083
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p38.jpg",
+  "date": "2026-04-03",
+  "store_name": "日本交通（赤羽営業所）",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p38.jpg",
+  "date": "2026-04-04",
+  "store_name": "グリーンキャブ",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p38.jpg",
+  "date": "2026-04-02",
+  "store_name": "Amazon",
+  "purchase_name": "事務用品（テープのり・スクラップブック）",
+  "total": 7161,
+  "items": [
+   {
+    "name": "コクヨ ドットライナー つめ替え 10個 ×2",
+    "amount": 5184
+   },
+   {
+    "name": "コクヨ スクラップブックD A4 5冊",
+    "amount": 1977
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p38.jpg",
+  "date": "2026-04-06",
+  "store_name": "ラッキータクシー (km)",
+  "purchase_name": "タクシー代",
+  "total": 1600,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1600
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p39.jpg",
+  "date": "2026-04-06",
+  "store_name": "Amazon",
+  "purchase_name": "PC用品（SDカードリーダー）",
+  "total": 1832,
+  "items": [
+   {
+    "name": "UGREEN SDカードリーダー",
+    "amount": 1832
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p39.jpg",
+  "date": "2026-04-07",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p39.jpg",
+  "date": "2026-04-08",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 819
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p39.jpg",
+  "date": "2026-04-08",
+  "store_name": "グリーンキャブ",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p39.jpg",
+  "date": "2026-04-09",
+  "store_name": "栄光交通",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p40.jpg",
+  "date": "2026-04-09",
+  "store_name": "（部会費）",
+  "purchase_name": "3月分部会費",
+  "total": 6000,
+  "items": [
+   {
+    "name": "3月分部会費",
+    "amount": 6000
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p40.jpg",
+  "date": "2026-04-10",
+  "store_name": "泉自動車交通",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p40.jpg",
+  "date": "2026-04-10",
+  "store_name": "東京地下鉄（メトロ）",
+  "purchase_name": "交通費チャージ",
+  "total": 3000,
+  "items": [
+   {
+    "name": "チャージ",
+    "amount": 3000
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p40.jpg",
+  "date": "2026-04-11",
+  "store_name": "国際自動車 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p41.jpg",
+  "date": "2026-04-11",
+  "store_name": "神田 高はし",
+  "purchase_name": "飲食代",
+  "total": 59150,
+  "items": [
+   {
+    "name": "お食事代",
+    "amount": 59150
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p41.jpg",
+  "date": "2026-04-14",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p41.jpg",
+  "date": "2026-04-15",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 819
+   }
+  ]
+ },
+ {
+  "file": "2026-04_p41.jpg",
+  "date": "2026-04-16",
+  "store_name": "Amazon",
+  "purchase_name": "通信費（Amazon Music）",
+  "total": 1080,
+  "items": [
+   {
+    "name": "Amazon Music Unlimited",
+    "amount": 1080
+   }
+  ]
  }
 ]
