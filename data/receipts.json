@@ -3348,5 +3348,316 @@
     "amount": 6000
    }
   ]
+ },
+ {
+  "file": "2026-06_p62.jpg",
+  "date": "2026-06-09",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "書籍（雑誌代）",
+  "total": 2049,
+  "items": [
+   {
+    "name": "雑誌代",
+    "amount": 2049
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p62.jpg",
+  "date": "2026-06-09",
+  "store_name": "鳳自動車",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p62.jpg",
+  "date": "2026-06-10",
+  "store_name": "往来堂書店",
+  "purchase_name": "書籍代",
+  "total": 1500,
+  "items": [
+   {
+    "name": "書籍代",
+    "amount": 1500
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p62.jpg",
+  "date": "2026-06-12",
+  "store_name": "日本交通グループ（伊藤タクシー）",
+  "purchase_name": "タクシー代",
+  "total": 1900,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1900
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p62.jpg",
+  "date": "2026-06-03",
+  "store_name": "台東区",
+  "purchase_name": "ゴミ処理手数料（事業系）",
+  "total": 3910,
+  "items": [
+   {
+    "name": "有料ごみ処理券(45L相当用) 10枚綴り",
+    "amount": 3910
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p62.jpg",
+  "date": "2026-06-13",
+  "store_name": "東京地下鉄（メトロ）",
+  "purchase_name": "交通費チャージ",
+  "total": 3000,
+  "items": [
+   {
+    "name": "チャージ",
+    "amount": 3000
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p62.jpg",
+  "date": "2026-06-15",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p63.jpg",
+  "date": "2026-06-16",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p63.jpg",
+  "date": "2026-06-17",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1083,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 1083
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p63.jpg",
+  "date": "2026-06-10",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 819
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p63.jpg",
+  "date": "2026-06-11",
+  "store_name": "シモジマ かっぱ橋店",
+  "purchase_name": "事務用品（シャープペン・封筒）",
+  "total": 980,
+  "items": [
+   {
+    "name": "クルトガ M5-450",
+    "amount": 445
+   },
+   {
+    "name": "ヘイコー 封筒 長4 グリーン",
+    "amount": 535
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p63.jpg",
+  "date": "2026-06-11",
+  "store_name": "AL COVO",
+  "purchase_name": "飲食代",
+  "total": 24700,
+  "items": [
+   {
+    "name": "飲食代(合計はユーザー確認)",
+    "amount": 24700
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p64.jpg",
+  "date": "2026-06-13",
+  "store_name": "Amazon",
+  "purchase_name": "事務用品（画鋲）",
+  "total": 690,
+  "items": [
+   {
+    "name": "画鋲 100個入",
+    "amount": 690
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p64.jpg",
+  "date": "2026-06-16",
+  "store_name": "Amazon",
+  "purchase_name": "通信費（Amazon Music）",
+  "total": 1080,
+  "items": [
+   {
+    "name": "Amazon Music Unlimited",
+    "amount": 1080
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p64.jpg",
+  "date": "2026-06-19",
+  "store_name": "Amazon",
+  "purchase_name": "家電（加湿器）",
+  "total": 13999,
+  "items": [
+   {
+    "name": "KEECOON 加湿器 13L",
+    "amount": 13999
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p65.jpg",
+  "date": "2026-06-17",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "",
+  "total": 930,
+  "items": [
+   {
+    "name": "(明細なし・10%課税)",
+    "amount": 930
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p65.jpg",
+  "date": "2026-06-21",
+  "store_name": "バブバル",
+  "purchase_name": "",
+  "total": 26460,
+  "items": [
+   {
+    "name": "(但し書きなし)",
+    "amount": 26460
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p65.jpg",
+  "date": "2026-06-20",
+  "store_name": "Amazon",
+  "purchase_name": "工具（ペンチ）",
+  "total": 800,
+  "items": [
+   {
+    "name": "DOWELL ペンチ 6インチ",
+    "amount": 800
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p65.jpg",
+  "date": "2026-06-22",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（トイレットペーパー）",
+  "total": 986,
+  "items": [
+   {
+    "name": "トイレットペーパー 12ロール",
+    "amount": 1160
+   },
+   {
+    "name": "割引",
+    "amount": -174
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p66.jpg",
+  "date": "2026-06-23",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 1966,
+  "items": [
+   {
+    "name": "Y1000 ×14",
+    "amount": 1966
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p66.jpg",
+  "date": "2026-06-24",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 819
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p66.jpg",
+  "date": "2026-06-27",
+  "store_name": "二北タクシー",
+  "purchase_name": "タクシー代",
+  "total": 2800,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 2800
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p66.jpg",
+  "date": "2026-06-30",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
  }
 ]
