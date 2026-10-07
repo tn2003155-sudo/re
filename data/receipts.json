@@ -3672,5 +3672,295 @@
     "amount": 3910
    }
   ]
+ },
+ {
+  "file": "2026-06_p67.jpg",
+  "date": "2026-06-30",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p68.jpg",
+  "date": "2026-07-01",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1083,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 1083
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p68.jpg",
+  "date": "2026-07-02",
+  "store_name": "Osteria Pianino",
+  "purchase_name": "飲食代",
+  "total": 9000,
+  "items": [
+   {
+    "name": "グラスワイン・antipasto",
+    "amount": 9000
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p68.jpg",
+  "date": "2026-07-01",
+  "store_name": "幸進",
+  "purchase_name": "タクシー代",
+  "total": 1700,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1700
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p68.jpg",
+  "date": "2026-07-04",
+  "store_name": "飛鳥交通第五",
+  "purchase_name": "タクシー代",
+  "total": 1800,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1800
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p68.jpg",
+  "date": "2026-07-06",
+  "store_name": "日本交通（新木場営業所）",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p68.jpg",
+  "date": "2026-07-06",
+  "store_name": "マルエツ 東上野店",
+  "purchase_name": "雑貨",
+  "total": 482,
+  "items": [
+   {
+    "name": "フラワ1.5S8",
+    "amount": 439
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p69.jpg",
+  "date": "2026-07-07",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "書籍（雑誌代）",
+  "total": 1210,
+  "items": [
+   {
+    "name": "雑誌代",
+    "amount": 1210
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p69.jpg",
+  "date": "2026-07-07",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p69.jpg",
+  "date": "2026-07-07",
+  "store_name": "国際自動車 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p69.jpg",
+  "date": "2026-07-07",
+  "store_name": "セブン-イレブン 上野桜木2丁目店",
+  "purchase_name": "ゴミ処理券（粗大A）",
+  "total": 400,
+  "items": [
+   {
+    "name": "台東区ゴミ処理券粗大A ×2",
+    "amount": 400
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p69.jpg",
+  "date": "2026-07-08",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 819
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p70.jpg",
+  "date": "2026-07-08",
+  "store_name": "国際自動車 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1500,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1500
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p70.jpg",
+  "date": "2026-07-09",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "事務用品（封筒）",
+  "total": 310,
+  "items": [
+   {
+    "name": "封筒",
+    "amount": 310
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p70.jpg",
+  "date": "2026-07-09",
+  "store_name": "坂本自動車",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p70.jpg",
+  "date": "2026-07-09",
+  "store_name": "（部会費）",
+  "purchase_name": "6月分部会費",
+  "total": 6000,
+  "items": [
+   {
+    "name": "6月分部会費",
+    "amount": 6000
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p71.jpg",
+  "date": "2026-07-09",
+  "store_name": "Osteria Pianino",
+  "purchase_name": "飲食代",
+  "total": 24400,
+  "items": [
+   {
+    "name": "ご飲食代",
+    "amount": 24400
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p71.jpg",
+  "date": "2026-07-10",
+  "store_name": "足立タクシー",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p71.jpg",
+  "date": "2026-07-10",
+  "store_name": "東京地下鉄（メトロ）",
+  "purchase_name": "交通費チャージ",
+  "total": 3000,
+  "items": [
+   {
+    "name": "チャージ",
+    "amount": 3000
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p71.jpg",
+  "date": "2026-07-11",
+  "store_name": "神田 高はし",
+  "purchase_name": "飲食代",
+  "total": 56320,
+  "items": [
+   {
+    "name": "お食事代",
+    "amount": 56320
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p71.jpg",
+  "date": "2026-07-11",
+  "store_name": "三和交通 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p71.jpg",
+  "date": "2026-07-14",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
  }
 ]
