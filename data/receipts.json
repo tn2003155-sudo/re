@@ -3962,5 +3962,288 @@
     "amount": 3931
    }
   ]
+ },
+ {
+  "file": "2026-07_p72.jpg",
+  "date": "2026-07-15",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1083,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 1083
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p72.jpg",
+  "date": "2026-07-15",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p72.jpg",
+  "date": "2026-07-16",
+  "store_name": "Amazon",
+  "purchase_name": "通信費（Amazon Music）",
+  "total": 1080,
+  "items": [
+   {
+    "name": "Amazon Music Unlimited",
+    "amount": 1080
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p72.jpg",
+  "date": "2026-07-17",
+  "store_name": "にしきの里",
+  "purchase_name": "食品（マンゴー等）",
+  "total": 1560,
+  "items": [
+   {
+    "name": "マンゴー",
+    "amount": 800
+   },
+   {
+    "name": "パッション ×2",
+    "amount": 760
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p73.jpg",
+  "date": "2026-07-13",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（バッテリー・爪切り等）",
+  "total": 20099,
+  "items": [
+   {
+    "name": "クリーニングクロス",
+    "amount": 567
+   },
+   {
+    "name": "ビクトリノックス 爪切り ×2",
+    "amount": 2890
+   },
+   {
+    "name": "SmallRig VB50 バッテリー",
+    "amount": 16642
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p73.jpg",
+  "date": "2026-07-20",
+  "store_name": "さつまち 鹿児島中央駅",
+  "purchase_name": "",
+  "total": 2500,
+  "items": [
+   {
+    "name": "(クレジット売上票・明細なし)",
+    "amount": 2500
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p73.jpg",
+  "date": "2026-07-21",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p74.jpg",
+  "date": "2026-07-20",
+  "store_name": "Amazon",
+  "purchase_name": "PC用品（充電器）",
+  "total": 1992,
+  "items": [
+   {
+    "name": "YOCOEI 45W PD充電器",
+    "amount": 1992
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p74.jpg",
+  "date": "2026-07-23",
+  "store_name": "シモジマ かっぱ橋店",
+  "purchase_name": "雑貨（封筒・袋）",
+  "total": 1576,
+  "items": [
+   {
+    "name": "ヘイコー 封筒 長4",
+    "amount": 192
+   },
+   {
+    "name": "AEFハンド M ×2",
+    "amount": 642
+   },
+   {
+    "name": "スライダーバッグ L ×2",
+    "amount": 1070
+   },
+   {
+    "name": "会員割引・クーポン",
+    "amount": -328
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p74.jpg",
+  "date": "2026-07-23",
+  "store_name": "セブン-イレブン 上野桜木2丁目店",
+  "purchase_name": "行政証明書発行手数料",
+  "total": 150,
+  "items": [
+   {
+    "name": "地方公共団体証明書代",
+    "amount": 150
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p75.jpg",
+  "date": "2026-07-23",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（トイレットペーパー）",
+  "total": 986,
+  "items": [
+   {
+    "name": "トイレットペーパー 12ロール",
+    "amount": 1160
+   },
+   {
+    "name": "割引",
+    "amount": -174
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p75.jpg",
+  "date": "2026-07-26",
+  "store_name": "シモジマ かっぱ橋店",
+  "purchase_name": "雑貨（チャック袋）",
+  "total": 1782,
+  "items": [
+   {
+    "name": "ユニパック F-4 ×3",
+    "amount": 1782
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p75.jpg",
+  "date": "2026-07-26",
+  "store_name": "Amazon",
+  "purchase_name": "PC用品（プリンターケーブル）",
+  "total": 509,
+  "items": [
+   {
+    "name": "プリンターケーブル 1.8M",
+    "amount": 509
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p76.jpg",
+  "date": "2026-07-27",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p76.jpg",
+  "date": "2026-07-28",
+  "store_name": "セブン-イレブン 上野桜木2丁目店",
+  "purchase_name": "行政証明書発行手数料",
+  "total": 150,
+  "items": [
+   {
+    "name": "地方公共団体証明書代",
+    "amount": 150
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p76.jpg",
+  "date": "2026-07-28",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p76.jpg",
+  "date": "2026-07-29",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 819,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 819
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p76.jpg",
+  "date": "2026-07-25",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "書籍（雑誌代）",
+  "total": 1920,
+  "items": [
+   {
+    "name": "雑誌代",
+    "amount": 1920
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p76.jpg",
+  "date": "2026-07-27",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "医薬品（絆創膏）",
+  "total": 660,
+  "items": [
+   {
+    "name": "バンドエイド",
+    "amount": 660
+   }
+  ]
  }
 ]
