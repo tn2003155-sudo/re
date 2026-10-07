@@ -4245,5 +4245,261 @@
     "amount": 660
    }
   ]
+ },
+ {
+  "file": "2026-07_p77.jpg",
+  "date": "2026-07-25",
+  "store_name": "マルエツ 東上野店",
+  "purchase_name": "雑貨（トイレットペーパー・ゴミ袋）",
+  "total": 1625,
+  "items": [
+   {
+    "name": "ゴミ袋 ×3",
+    "amount": 300
+   },
+   {
+    "name": "雑貨100円均一 ×3",
+    "amount": 300
+   },
+   {
+    "name": "フラワ1.5S8 ×2",
+    "amount": 878
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p77.jpg",
+  "date": "2026-07-27",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（ティッシュ）",
+  "total": 1965,
+  "items": [
+   {
+    "name": "スコッティ カシミヤ 10箱",
+    "amount": 2312
+   },
+   {
+    "name": "割引",
+    "amount": -347
+   }
+  ]
+ },
+ {
+  "file": "2026-07_p78.jpg",
+  "date": "2026-07-30",
+  "store_name": "Amazon",
+  "purchase_name": "PC用品（電源ケーブル）",
+  "total": 801,
+  "items": [
+   {
+    "name": "AC電源ケーブル 180cm",
+    "amount": 801
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p79.jpg",
+  "date": "2026-08-02",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（ディスペンサー・クリーニングティッシュ）",
+  "total": 1248,
+  "items": [
+   {
+    "name": "ディスペンサー 600ml",
+    "amount": 421
+   },
+   {
+    "name": "HAKUBA レンズクリーニングティッシュ",
+    "amount": 827
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p79.jpg",
+  "date": "2026-08-03",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（消臭スプレー）",
+  "total": 2233,
+  "items": [
+   {
+    "name": "トイレ用消臭スプレー ×4",
+    "amount": 2233
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p79.jpg",
+  "date": "2026-08-04",
+  "store_name": "Amazon",
+  "purchase_name": "PC用品（SSD）",
+  "total": 29997,
+  "items": [
+   {
+    "name": "Vansuny SSD 512GB ×3",
+    "amount": 29997
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p80.jpg",
+  "date": "2026-08-05",
+  "store_name": "点心すや",
+  "purchase_name": "飲食代",
+  "total": 16300,
+  "items": [
+   {
+    "name": "お食事代(7/30分)",
+    "amount": 16300
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p80.jpg",
+  "date": "2026-08-04",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 7862,
+  "items": [
+   {
+    "name": "Y1000 ×56",
+    "amount": 7862
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p80.jpg",
+  "date": "2026-08-04",
+  "store_name": "鈴木賢一（出金伝票）",
+  "purchase_name": "",
+  "total": 1040,
+  "items": [
+   {
+    "name": "役所 返却分",
+    "amount": 1040
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p80.jpg",
+  "date": "2026-08-05",
+  "store_name": "日交美輝",
+  "purchase_name": "タクシー代",
+  "total": 1900,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1900
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p81.jpg",
+  "date": "2026-08-05",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1451,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 1451
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p81.jpg",
+  "date": "2026-08-06",
+  "store_name": "親切タクシー",
+  "purchase_name": "タクシー代",
+  "total": 1200,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1200
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p81.jpg",
+  "date": "2026-08-06",
+  "store_name": "多慶屋 (TAKEYA)",
+  "purchase_name": "雑貨（延長コード・乾電池等）",
+  "total": 3691,
+  "items": [
+   {
+    "name": "パフィー",
+    "amount": 384
+   },
+   {
+    "name": "チャッカマン",
+    "amount": 219
+   },
+   {
+    "name": "替芯 ×2",
+    "amount": 174
+   },
+   {
+    "name": "アロンアルファ",
+    "amount": 857
+   },
+   {
+    "name": "延長コード",
+    "amount": 1419
+   },
+   {
+    "name": "乾電池",
+    "amount": 638
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p81.jpg",
+  "date": "2026-08-06",
+  "store_name": "シモジマ かっぱ橋店",
+  "purchase_name": "雑貨（袋）",
+  "total": 1279,
+  "items": [
+   {
+    "name": "アームハンドハイパー L",
+    "amount": 386
+   },
+   {
+    "name": "アームハンドハイパー LL",
+    "amount": 578
+   },
+   {
+    "name": "バイオハンド ×3",
+    "amount": 489
+   },
+   {
+    "name": "割引",
+    "amount": -174
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p81.jpg",
+  "date": "2026-08-07",
+  "store_name": "日本交通（千住営業所）",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p81.jpg",
+  "date": "2026-08-07",
+  "store_name": "東京地下鉄（メトロ）",
+  "purchase_name": "交通費チャージ",
+  "total": 3000,
+  "items": [
+   {
+    "name": "チャージ",
+    "amount": 3000
+   }
+  ]
  }
 ]
