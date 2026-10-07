@@ -3119,5 +3119,234 @@
     "amount": 19000
    }
   ]
+ },
+ {
+  "file": "2026-05_p57.jpg",
+  "date": "2026-05-13",
+  "store_name": "東京都歯科医師連盟",
+  "purchase_name": "日本歯科医師連盟会費",
+  "total": 23000,
+  "items": [
+   {
+    "name": "令和8年度 日本歯科医師連盟会費",
+    "amount": 23000
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p57.jpg",
+  "date": "2026-05-13",
+  "store_name": "東京都歯科医師連盟",
+  "purchase_name": "東京都歯科医師連盟会費",
+  "total": 15000,
+  "items": [
+   {
+    "name": "令和8年度 東京都歯科医師連盟会費",
+    "amount": 15000
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p57.jpg",
+  "date": "2026-05-13",
+  "store_name": "東京都台東区歯科医師連盟",
+  "purchase_name": "年額会費",
+  "total": 8000,
+  "items": [
+   {
+    "name": "令和8年度 東京都台東区歯科医師連盟会費",
+    "amount": 8000
+   }
+  ]
+ },
+ {
+  "file": "2026-05_p58.jpg",
+  "date": "2026-05-12",
+  "store_name": "上野青色申告会",
+  "purchase_name": "会費",
+  "total": 12000,
+  "items": [
+   {
+    "name": "会費(正会員) 2026/04〜2026/09",
+    "amount": 12000
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p59.jpg",
+  "date": "2026-06-02",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p59.jpg",
+  "date": "2026-06-03",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1083,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 1083
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p59.jpg",
+  "date": "2026-06-03",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p59.jpg",
+  "date": "2026-06-04",
+  "store_name": "Amazon",
+  "purchase_name": "工具（はさみ・ニッパー）",
+  "total": 2249,
+  "items": [
+   {
+    "name": "WORKPRO 万能はさみ",
+    "amount": 1260
+   },
+   {
+    "name": "斜め刃ニッパー",
+    "amount": 989
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p60.jpg",
+  "date": "2026-06-04",
+  "store_name": "有限会社 大三機工",
+  "purchase_name": "メンテナンス料金",
+  "total": 10670,
+  "items": [
+   {
+    "name": "メンテナンス料金",
+    "amount": 10670
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p60.jpg",
+  "date": "2026-06-04",
+  "store_name": "セブン-イレブン 上野桜木2丁目店",
+  "purchase_name": "事務用品（コピー代）",
+  "total": 120,
+  "items": [
+   {
+    "name": "コピー代",
+    "amount": 120
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p60.jpg",
+  "date": "2026-06-05",
+  "store_name": "八千代自動車",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p60.jpg",
+  "date": "2026-06-05",
+  "store_name": "株式会社フォーカス",
+  "purchase_name": "医薬品（代金引換）",
+  "total": 30800,
+  "items": [
+   {
+    "name": "医薬品(錠剤)",
+    "amount": 30800
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p60.jpg",
+  "date": "2026-06-06",
+  "store_name": "吉祥寺交通",
+  "purchase_name": "タクシー代",
+  "total": 1500,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1500
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p61.jpg",
+  "date": "2026-06-06",
+  "store_name": "Amazon",
+  "purchase_name": "事務用品（印箱）",
+  "total": 2027,
+  "items": [
+   {
+    "name": "シヤチハタ 印箱 IBN-03",
+    "amount": 2027
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p61.jpg",
+  "date": "2026-06-08",
+  "store_name": "山手交通 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1300,
+  "items": [
+   {
+    "name": "運賃",
+    "amount": 1300
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p61.jpg",
+  "date": "2026-06-09",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-06_p61.jpg",
+  "date": "2026-06-09",
+  "store_name": "（部会費）",
+  "purchase_name": "5月分部会費",
+  "total": 6000,
+  "items": [
+   {
+    "name": "5月分部会費",
+    "amount": 6000
+   }
+  ]
  }
 ]
