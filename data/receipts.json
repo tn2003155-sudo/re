@@ -4501,5 +4501,301 @@
     "amount": 3000
    }
   ]
+ },
+ {
+  "file": "2026-08_p82.jpg",
+  "date": "2026-08-07",
+  "store_name": "（部会費）",
+  "purchase_name": "7月分部会費",
+  "total": 6000,
+  "items": [
+   {
+    "name": "7月分部会費",
+    "amount": 6000
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p82.jpg",
+  "date": "2026-08-09",
+  "store_name": "山手交通 (km)",
+  "purchase_name": "タクシー代",
+  "total": 1400,
+  "items": [
+   {
+    "name": "基本運賃",
+    "amount": 1400
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p82.jpg",
+  "date": "2026-08-12",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p82.jpg",
+  "date": "2026-08-11",
+  "store_name": "イヨテツショップ",
+  "purchase_name": "",
+  "total": 2400,
+  "items": [
+   {
+    "name": "(クレジット売上票・明細なし)",
+    "amount": 2400
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p83.jpg",
+  "date": "2026-08-12",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（レインコート）",
+  "total": 3059,
+  "items": [
+   {
+    "name": "レインコート",
+    "amount": 3059
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p83.jpg",
+  "date": "2026-08-16",
+  "store_name": "Amazon",
+  "purchase_name": "通信費（Amazon Music）",
+  "total": 1080,
+  "items": [
+   {
+    "name": "Amazon Music Unlimited",
+    "amount": 1080
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p83.jpg",
+  "date": "2026-08-18",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（ゴミ袋）",
+  "total": 1275,
+  "items": [
+   {
+    "name": "ゴミ袋 120L 10枚",
+    "amount": 1417
+   },
+   {
+    "name": "割引",
+    "amount": -142
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p84.jpg",
+  "date": "2026-08-18",
+  "store_name": "Amazon",
+  "purchase_name": "雑貨（タオル）",
+  "total": 3780,
+  "items": [
+   {
+    "name": "フェイスタオル 5枚セット ×2",
+    "amount": 3780
+   },
+   {
+    "name": "配送料",
+    "amount": 200
+   },
+   {
+    "name": "割引",
+    "amount": -200
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p84.jpg",
+  "date": "2026-08-18",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 3931,
+  "items": [
+   {
+    "name": "Y1000 ×28",
+    "amount": 3931
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p84.jpg",
+  "date": "2026-08-19",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1083,
+  "items": [
+   {
+    "name": "ユニフォームレンタル",
+    "amount": 1083
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p84.jpg",
+  "date": "2026-08-20",
+  "store_name": "ヨドバシカメラ MM上野",
+  "purchase_name": "事務用品（ボールペン替芯）",
+  "total": 102,
+  "items": [
+   {
+    "name": "三菱鉛筆 SA10CN.24 ×2",
+    "amount": 102
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p84.jpg",
+  "date": "2026-08-21",
+  "store_name": "日本郵便（上野郵便局）",
+  "purchase_name": "通信費（切手代）",
+  "total": 2200,
+  "items": [
+   {
+    "name": "110円切手 ×20",
+    "amount": 2200
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p85.jpg",
+  "date": "2026-08-21",
+  "store_name": "赤岩印刷",
+  "purchase_name": "印刷代（診察券・予約表）",
+  "total": 18920,
+  "items": [
+   {
+    "name": "診察券 3000枚・予約表 2000枚",
+    "amount": 17200
+   },
+   {
+    "name": "消費税",
+    "amount": 1720
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p85.jpg",
+  "date": "2026-08-21",
+  "store_name": "あきばお～7号店",
+  "purchase_name": "PC用品",
+  "total": 6360,
+  "items": [
+   {
+    "name": "LU202W064GG4 ×2",
+    "amount": 2360
+   },
+   {
+    "name": "LU202W032GG4 ×4",
+    "amount": 4000
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p85.jpg",
+  "date": "2026-08-22",
+  "store_name": "東京地下鉄（メトロ）",
+  "purchase_name": "交通費チャージ",
+  "total": 3000,
+  "items": [
+   {
+    "name": "チャージ",
+    "amount": 3000
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p85.jpg",
+  "date": "2026-08-24",
+  "store_name": "交通費精算（出金伝票）",
+  "purchase_name": "交通費（JR回数券・めぐりん）",
+  "total": 2500,
+  "items": [
+   {
+    "name": "JR回数券",
+    "amount": 1500
+   },
+   {
+    "name": "めぐりん",
+    "amount": 1000
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p86.jpg",
+  "date": "2026-08-26",
+  "store_name": "ジャパン・メディカル＆DS",
+  "purchase_name": "石膏トラップ交換・清掃代",
+  "total": 10076,
+  "items": [
+   {
+    "name": "石膏トラップ交換及びクリーニング",
+    "amount": 10076
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p86.jpg",
+  "date": "2026-08-26",
+  "store_name": "ダスキン入谷支店",
+  "purchase_name": "ユニフォームレンタル等",
+  "total": 1534,
+  "items": [
+   {
+    "name": "診察衣ハーフ ×2",
+    "amount": 902
+   },
+   {
+    "name": "病院用パンツ",
+    "amount": 368
+   },
+   {
+    "name": "エプロン",
+    "amount": 264
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p86.jpg",
+  "date": "2026-08-26",
+  "store_name": "LAWSON 東上野五丁目店",
+  "purchase_name": "ゴミ処理手数料（事業系）",
+  "total": 7820,
+  "items": [
+   {
+    "name": "(非課税・金額はスタンプで一部不明)",
+    "amount": 7820
+   }
+  ]
+ },
+ {
+  "file": "2026-08_p86.jpg",
+  "date": "2026-08-25",
+  "store_name": "東京ヤクルト販売",
+  "purchase_name": "飲料（Y1000）",
+  "total": 2948,
+  "items": [
+   {
+    "name": "Y1000 ×21",
+    "amount": 2948
+   }
+  ]
  }
 ]
